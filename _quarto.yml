@@ -15,7 +15,7 @@ website:
         href: https://twitter.com/Rogers_M_P
 format:
   html:
-    theme: cosmo
+    theme: zephyr
     css: styles.css
 
 editor: visual
