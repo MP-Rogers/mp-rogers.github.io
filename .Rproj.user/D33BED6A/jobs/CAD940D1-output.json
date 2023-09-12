@@ -1,0 +1,6 @@
+[2,"\n"]
+[1,"pandoc \n  to: html\n  output-file: about.html\n  standalone: true\n  title-prefix: Sun and Sea\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  editor: visual\n  theme: cosmo\n  title: About\n  image: profile.jpg\n  about:\n    template: jolla\n    links:\n      - icon: twitter\n        text: Twitter\n        href: 'https://twitter.com/Rogers_M_P'\n      - icon: linkedin\n        text: LinkedIn\n        href: www.linkedin.com/in/matthew-pierre-rogers-786362224\n  \n"]
+[1,"Output created: docs\\about.html\n\nPreparing to preview\n"]
+[1,"\nWatching files for changes\nBrowse at http://localhost:3639/about.html\n"]
+[1,"GET: /\n"]
+[1,"GET: /\n"]
