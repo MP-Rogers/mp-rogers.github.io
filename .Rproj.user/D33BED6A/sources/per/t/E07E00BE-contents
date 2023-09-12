@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Rogers_M_P
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/matthew-pierre-rogers-786362224
+---
+
+About this blog
