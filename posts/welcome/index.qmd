@@ -9,7 +9,7 @@ image: PRCM9723.jpg
 
 My name is Matthew-Pierre Rogers, but you'll see MP around this site. I'm a young Jamaican, a marine biologist and a lover of the ocean.
 
-![Me on a Dive](PRCM9723.jpg){alt="Me on a Dive" fig-align="center" width="512"}
+![Me on a Dive](PRCM9723.jpg){fig-align="center" width="512"}
 
 I graduated recently(2022) from the University of the West Indies and now, I am seeing how I can make the best use of my marine biology to support, not just me, but the seas of Jamaica and the wider Caribbean. Marine Biology is a pretty broad field. In fact, I think a good idea for one my first posts is on just how diverse life in the sea is, with some of my favourite organisms.
 
