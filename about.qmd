@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Sun and Sea"
 image: profile.jpg
 about:
   template: jolla
@@ -12,4 +12,4 @@ about:
       href: www.linkedin.com/in/matthew-pierre-rogers-786362224
 ---
 
-About this blog
+Welcome to Sun and Sea, a blog where I talk about my experiences as a Jamaican marine biologist, and chronicle bits of my story as it unfolds.

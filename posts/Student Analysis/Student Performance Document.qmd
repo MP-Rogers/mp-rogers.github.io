@@ -13,7 +13,9 @@ date: 09/06/2023
 
 It's been a while since I've sat down to practice using R and looking through data. So this is a chance for me to shake the rust off. I'm trying to write this summary as I go through the process to document my thoughts.
 
-I started heading over to [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams) and looked for any dataset I found interesting, I shortlisted a few and this one made the cut.
+I started heading over to [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams) and looked for any dataset I found interesting, I shortlisted a few and this one made the cut. I'll get through the other datasets at some point.
+
+There are a few reason I chose this set in particular. It's availability was one for sure. But I'm also a recent graduate of the [University of the West Indies](https://www.mona.uwi.edu/). In a way, I still relate to being a student. Beyond that I think education is super important, especially for a people like Jamaica to improve and set themselves up. All this means I chose to take a crack at this dataset to get back into the groove.
 
 Without further ado, let my load my trusty packages and get started.
 
@@ -34,12 +36,12 @@ dataset<-read.csv("StudentsPerformance.csv")
 glimpse(dataset)
 ```
 
-Alrighty. So we have 1000 rows, an OK size. We have a field for Race, parental education level, lunch, whether they took a test preparation course, and then their math, reading and writing scores. I notice they have placeholders for the race field, likely to reduce any bias. Its a good move.
+Alrighty. So we have 1000 rows, an OK size. We have a field for race, parental education level, lunch, whether they took a test preparation course, and then their math, reading and writing scores. I notice they have placeholders for the race field, likely to reduce any bias. It's a good move in my opinion.
 
 A few questions jump out at me:
 
 -   Do the different genders score differently?
--   Do different Races score differently.
+-   Do different Races score differently?
 -   Does taking the test prep course make a difference?
 -   Are Reading and Writing Scores more closely related than Math?
 
@@ -67,13 +69,13 @@ gender.anova<-aov(mean.score ~ gender, data = dataset)
 print(summary(gender.anova))
 ```
 
-Both agree, there a statistically significant difference between the mean score of the male and female students. The p-value, or chance that these results are due to chance is *WAY* less than 5%. At this sample size, I'd put some stock behind it.
+Both agree, there a statistically significant difference between the mean score of the male and female students. The p-value, or chance that these results are due to chance, is **WAY** less than 5%. At this sample size, I'd put some stock behind it.
 
 In all honesty, I'd love to go through by Math, Reading and Writing to see if one particular subject has a bigger impact than the others.
 
 ## Does Race make a difference?
 
-The next one is a touchy topic. Thankfully the racial groups are designated with identifiers. I havent checked for the Key at the time of writing. A similar test can be be done. in this case an ANOVA is used to test the impact of race.
+The next one is a touchy topic. Thankfully the racial groups are designated with identifiers. I haven't checked for the Key at the time of writing. A similar test can be be done. in this case an ANOVA is used to test the impact of race.
 
 ```{r}
 #| label: ANOVA for Race
@@ -89,7 +91,7 @@ d<-dataset |> group_by(race.ethnicity) |> summarise(race.mean = mean(mean.score)
 print(d)
 ```
 
-But I find it may be better to do this graphically. there's different ways to do this, but box plots are a good way to go. This plot shows the means of each racial group, but also an idea of how widely spread the scores are for each. For example, it lets you know that Race D has the second highest mean test score, but also that scores in thus race are the closest together, with less variation/spread.
+But I find it may be better to do this graphically. There's different ways to do this, but box plots are a good way to go. This plot shows the means of each racial group, but also an idea of how widely spread the scores are for each. For example, it lets you know that Race D has the second highest mean test score, but also that scores in this race are the closest together, with less variation/spread.
 
 ```{r}
 #| label: Plotting Race Differences in Mean Score
@@ -107,7 +109,7 @@ print(mean.score.race)
 
 The test prep course follows a similar analysis. The reason being that, for the purpose of this exercise, race, gender and whether the student did a test prep course are categorical variables. Students neatly fall into discrete groups.
 
-In fact lets approach this one a little differently. Lets look at it graphically first. A lot of times thats better for intuition.
+In fact lets approach this one a little differently. Let's look at it graphically first. A lot of times that's better for intuition.
 
 ```{r}
 #| label: Test Prep Course Violin Plot
@@ -129,11 +131,11 @@ test.prep.aov<-aov(mean.score~test.preparation.course, data = dataset)
 print(summary(test.prep.aov))
 ```
 
-In my head, i'm curious to know whether this test prep course is paid for or if there are other entrance requirements. At any rate: the difference is once again signficant.
+In my head, I'm curious to know whether this test prep course is paid for or if there are other entrance requirements. At any rate: the difference is once again statistically significant.
 
 ## Reading and Writing
 
-Now its time for the final question. This is actually the one i'm most curious about. Are Reading and writing scores more closesly related than math? To me, reading and writing feel like two sides of a coin. Math seems a little further away, so i'll see what the data says.
+Now its time for the final question. This is actually the one I'm most curious about. Are reading and writing scores more closely related than math? To me, reading and writing feel like two sides of a coin. Math seems a little further away, so I'll see what the data says.
 
 ```{r}
 #| label: corr matrix of test scores
@@ -150,12 +152,12 @@ cplot<-ggcorrplot(corr.matrix, method = "square", type = "lower", lab = TRUE, ti
 cplot
 ```
 
-The "redness" indicates closer relationships, as do the higher. To an extent I was right. All the scores are strongly correlated. In other words students who scored one way in say, math would tend to score similarly in reading and writing. However, reading and writing were more strongly correlated than either was to math. Which is about what I assumed
+The "redness" indicates closer relationships, as do the higher numbers. To an extent I was right. All the scores are strongly correlated. In other words students who scored one way in say, math would tend to score similarly in reading and writing. However, reading and writing were more strongly correlated than either was to math. Which is about what I assumed.
 
 ## Final Thoughts
 
 This was a good exercise to brush off the dust as far as getting back into my groove with R and analysing data. I genuinely think being able to understand statistics and data is important. While there are people who make this their whole career, I don't think I'm there yet.
 
-I do think, career applications aside, I can get more use out of this. As a former lecturer of mine once repeated, "There's lies, damn lies, and statistics" and a little understanding should help peel back some of those lies. For example, I could have hid a lot in mean score, especially if it turned out the scores weren't highy correlated. Theres still more questions that these questions unearthed.
+I do think, career applications aside, I can get more use out of this. As a former lecturer of mine once repeated, "There's lies, damn lies, and statistics" and a little understanding should help peel back some of those lies. For example, I could have hid a lot in mean score, especially if it turned out the scores weren't highly correlated. There are still more questions that these questions unearthed.
 
-But even so, I think fostering a mindset of having questions, and knowing how to start finding the answers is important. Lets hope I stick to learning andimporving that aspect of my mind and skillset.
+But even so, I think fostering a mindset of having questions, and knowing how to start finding the answers is important. Lets hope I stick to learning and improving that aspect of my mind and skillset.
