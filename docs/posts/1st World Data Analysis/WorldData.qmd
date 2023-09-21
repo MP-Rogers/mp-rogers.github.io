@@ -158,7 +158,7 @@ ggcorrplot(cor.matrix, type = "upper", lab = TRUE)+
   
 ```
 
-There's not quite as much going on in this one. The GDP per capita is kind of correlated to the latitude. But I've seen stronger relationships. that '0.46' in red shows us that there is something there. The closer to 1 and redder that square, the stronger that relationship would be.
+There's not quite as much going on in this one. The GDP per capita is kind of correlated to the latitude. But I've seen stronger relationships. that number in red shows us that there is something there. The closer it is to 1 and redder that square, the stronger that relationship would be.
 
 ## CO2 and GDP
 
@@ -240,4 +240,8 @@ Just hovering the mouse over each cluster:
 
 4.  The blue cluster is "Birth Stuff', connecting birth stuff to income and life expectancy
 
-So you've seen my process at the moment, and some of the mistakes I've made. One day soon, you'll see me re-attempt.
+So you've seen my process at the moment, and some of the mistakes I've made. One day soon, you'll see me re-attempt. Until next time, walk good.
+
+```{r}
+sessionInfo()
+```
