@@ -5,8 +5,9 @@ editor: visual
 author: Matthew-Pierre Rogers
 categories:
  - R
- - Analysis
+ - Data Analysis
 date: 09/06/2023
+title-block-banner: false
 ---
 
 # Looking at Student Performance

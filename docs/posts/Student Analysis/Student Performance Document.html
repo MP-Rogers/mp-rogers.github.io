@@ -142,52 +142,51 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Students Performance Analysis</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">Analysis</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Matthew-Pierre Rogers </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">September 6, 2023</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Students Performance Analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Data Analysis</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matthew-Pierre Rogers </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 6, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <section id="looking-at-student-performance" class="level1">
 <h1>Looking at Student Performance</h1>
 <p>It’s been a while since I’ve sat down to practice using R and looking through data. So this is a chance for me to shake the rust off. I’m trying to write this summary as I go through the process to document my thoughts.</p>
-<p>I started heading over to <a href="https://www.kaggle.com/datasets/spscientist/students-performance-in-exams">Kaggle</a> and looked for any dataset I found interesting, I shortlisted a few and this one made the cut.</p>
+<p>I started heading over to <a href="https://www.kaggle.com/datasets/spscientist/students-performance-in-exams">Kaggle</a> and looked for any dataset I found interesting, I shortlisted a few and this one made the cut. I’ll get through the other datasets at some point.</p>
+<p>There are a few reason I chose this set in particular. It’s availability was one for sure. But I’m also a recent graduate of the <a href="https://www.mona.uwi.edu/">University of the West Indies</a>. In a way, I still relate to being a student. Beyond that I think education is super important, especially for a people like Jamaica to improve and set themselves up. All this means I chose to take a crack at this dataset to get back into the groove.</p>
 <p>Without further ado, let my load my trusty packages and get started.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
@@ -212,11 +211,11 @@ $ reading.score               &lt;int&gt; 72, 90, 95, 57, 78, 83, 95, 43, 64, 60
 $ writing.score               &lt;int&gt; 74, 88, 93, 44, 75, 78, 92, 39, 67, 50, 52…</code></pre>
 </div>
 </div>
-<p>Alrighty. So we have 1000 rows, an OK size. We have a field for Race, parental education level, lunch, whether they took a test preparation course, and then their math, reading and writing scores. I notice they have placeholders for the race field, likely to reduce any bias. Its a good move.</p>
+<p>Alrighty. So we have 1000 rows, an OK size. We have a field for race, parental education level, lunch, whether they took a test preparation course, and then their math, reading and writing scores. I notice they have placeholders for the race field, likely to reduce any bias. It’s a good move in my opinion.</p>
 <p>A few questions jump out at me:</p>
 <ul>
 <li>Do the different genders score differently?</li>
-<li>Do different Races score differently.</li>
+<li>Do different Races score differently?</li>
 <li>Does taking the test prep course make a difference?</li>
 <li>Are Reading and Writing Scores more closely related than Math?</li>
 </ul>
@@ -256,12 +255,12 @@ Residuals   998 199591     200
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
 </div>
-<p>Both agree, there a statistically significant difference between the mean score of the male and female students. The p-value, or chance that these results are due to chance is <em>WAY</em> less than 5%. At this sample size, I’d put some stock behind it.</p>
+<p>Both agree, there a statistically significant difference between the mean score of the male and female students. The p-value, or chance that these results are due to chance, is <strong>WAY</strong> less than 5%. At this sample size, I’d put some stock behind it.</p>
 <p>In all honesty, I’d love to go through by Math, Reading and Writing to see if one particular subject has a bigger impact than the others.</p>
 </section>
 <section id="does-race-make-a-difference" class="level2">
 <h2 class="anchored" data-anchor-id="does-race-make-a-difference">Does Race make a difference?</h2>
-<p>The next one is a touchy topic. Thankfully the racial groups are designated with identifiers. I havent checked for the Key at the time of writing. A similar test can be be done. in this case an ANOVA is used to test the impact of race.</p>
+<p>The next one is a touchy topic. Thankfully the racial groups are designated with identifiers. I haven’t checked for the Key at the time of writing. A similar test can be be done. in this case an ANOVA is used to test the impact of race.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>race.anova<span class="ot">&lt;-</span><span class="fu">aov</span>(mean.score <span class="sc">~</span> race.ethnicity, <span class="at">data =</span> dataset)</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">summary</span>(race.anova))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -288,7 +287,7 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 5 group E             72.8</code></pre>
 </div>
 </div>
-<p>But I find it may be better to do this graphically. there’s different ways to do this, but box plots are a good way to go. This plot shows the means of each racial group, but also an idea of how widely spread the scores are for each. For example, it lets you know that Race D has the second highest mean test score, but also that scores in thus race are the closest together, with less variation/spread.</p>
+<p>But I find it may be better to do this graphically. There’s different ways to do this, but box plots are a good way to go. This plot shows the means of each racial group, but also an idea of how widely spread the scores are for each. For example, it lets you know that Race D has the second highest mean test score, but also that scores in this race are the closest together, with less variation/spread.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Student-Performance-Document_files/figure-html/Plotting Race Differences in Mean Score-1.png" class="img-fluid" width="672"></p>
@@ -298,7 +297,7 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 <section id="test-prep-course" class="level2">
 <h2 class="anchored" data-anchor-id="test-prep-course">Test Prep Course</h2>
 <p>The test prep course follows a similar analysis. The reason being that, for the purpose of this exercise, race, gender and whether the student did a test prep course are categorical variables. Students neatly fall into discrete groups.</p>
-<p>In fact lets approach this one a little differently. Lets look at it graphically first. A lot of times thats better for intuition.</p>
+<p>In fact lets approach this one a little differently. Let’s look at it graphically first. A lot of times that’s better for intuition.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>test.score.scatter<span class="ot">&lt;-</span>dataset <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> test.preparation.course, <span class="at">y =</span> mean.score, <span class="at">fill =</span> test.preparation.course))<span class="sc">+</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_violin</span>(<span class="at">alpha=</span> <span class="fl">0.8</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>)<span class="sc">+</span></span>
@@ -323,11 +322,11 @@ Residuals               998 189686     190
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
 </div>
-<p>In my head, i’m curious to know whether this test prep course is paid for or if there are other entrance requirements. At any rate: the difference is once again signficant.</p>
+<p>In my head, I’m curious to know whether this test prep course is paid for or if there are other entrance requirements. At any rate: the difference is once again statistically significant.</p>
 </section>
 <section id="reading-and-writing" class="level2">
 <h2 class="anchored" data-anchor-id="reading-and-writing">Reading and Writing</h2>
-<p>Now its time for the final question. This is actually the one i’m most curious about. Are Reading and writing scores more closesly related than math? To me, reading and writing feel like two sides of a coin. Math seems a little further away, so i’ll see what the data says.</p>
+<p>Now its time for the final question. This is actually the one I’m most curious about. Are reading and writing scores more closely related than math? To me, reading and writing feel like two sides of a coin. Math seems a little further away, so I’ll see what the data says.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggcorrplot)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>test.scores<span class="ot">&lt;-</span>dataset[,<span class="fu">c</span>(<span class="dv">6</span><span class="sc">:</span><span class="dv">8</span>)]</span>
@@ -348,13 +347,13 @@ writing.score  0.8026420     0.9545981     1.0000000</code></pre>
 <p><img src="Student-Performance-Document_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>The “redness” indicates closer relationships, as do the higher. To an extent I was right. All the scores are strongly correlated. In other words students who scored one way in say, math would tend to score similarly in reading and writing. However, reading and writing were more strongly correlated than either was to math. Which is about what I assumed</p>
+<p>The “redness” indicates closer relationships, as do the higher numbers. To an extent I was right. All the scores are strongly correlated. In other words students who scored one way in say, math would tend to score similarly in reading and writing. However, reading and writing were more strongly correlated than either was to math. Which is about what I assumed.</p>
 </section>
 <section id="final-thoughts" class="level2">
 <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This was a good exercise to brush off the dust as far as getting back into my groove with R and analysing data. I genuinely think being able to understand statistics and data is important. While there are people who make this their whole career, I don’t think I’m there yet.</p>
-<p>I do think, career applications aside, I can get more use out of this. As a former lecturer of mine once repeated, “There’s lies, damn lies, and statistics” and a little understanding should help peel back some of those lies. For example, I could have hid a lot in mean score, especially if it turned out the scores weren’t highy correlated. Theres still more questions that these questions unearthed.</p>
-<p>But even so, I think fostering a mindset of having questions, and knowing how to start finding the answers is important. Lets hope I stick to learning andimporving that aspect of my mind and skillset.</p>
+<p>I do think, career applications aside, I can get more use out of this. As a former lecturer of mine once repeated, “There’s lies, damn lies, and statistics” and a little understanding should help peel back some of those lies. For example, I could have hid a lot in mean score, especially if it turned out the scores weren’t highly correlated. There are still more questions that these questions unearthed.</p>
+<p>But even so, I think fostering a mindset of having questions, and knowing how to start finding the answers is important. Lets hope I stick to learning and improving that aspect of my mind and skillset.</p>
 
 
 </section>
