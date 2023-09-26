@@ -1,0 +1,78 @@
+---
+title: "Portland and The Alligator Head Foundation"
+author: "MP Rogers"
+date: 09-28-2023
+categories:
+- Marine Biology
+title-block-banner: false
+image: "20221223_083453.jpg"
+---
+
+This post was inspired by some feedback on my post here about [my trip to Bowden Bay](https://mp-rogers.github.io/docs/posts/Trip%20to%20Bowden/Trip%20to%20Bowden.html). Over on that post, I'd mentioned that we brought the seaweed back to Turtle Crawle Bay. Someone has asked me to share a little more about the bay, and I think it would be lovely to talk about. Especially since talking about them lets me mention a couple of cool things.
+
+Turtle Crawle Bay is a place I've become familiar with over the last year. It is located [here](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alligatorheadfoundation.org%2Four-story%2F&psig=AOvVaw17m6-80nWNXGkPh3gWm57g&ust=1695775383780000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjIt5zchceBAxX3A2IAHXnTBsEQr4kDegQIARBL) in the beautiful parish of Portland in North Eastern Jamaica.
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13751.253175671767!2d-76.42439072807495!3d18.177491453325583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salligator%20head%20portland%20jamaica!5e0!3m2!1sen!2sjm!4v1695689121808!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+In my opinion, Portland on a whole is the most beautiful place in the island. I've made trips to Portland as a child, the parish is known for beautiful beaches and rivers like Frenchman's Cove and food such as Boston Jerk.
+
+![Looking out over the water at the Alligator Head Foundation](/docs/posts/AHF and Fish Sanctuaries/20221223_083453.jpg){fig-align="center"}
+
+Where I spend most of my time when working in Portland is the Alligator Head Foundation. So let me tell you a little about them.
+
+## The Alligator Head Foundation
+
+[![The Alligator Head Foundation Logo](/docs/posts/AHF and Fish Sanctuaries/AHFL-Aug-19-2016.png)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alligatorheadfoundation.org%2F&psig=AOvVaw2AbI7RHKu_DCz95xcM4bh-&ust=1695781012755000&source=images&cd=vfe&opi=89978449&ved=0CAQQjB1qFwoTCNiW99iax4EDFQAAAAAdAAAAABAE)
+
+The Alligator Head Foundation, or AHF, is a non-profit organisation established by the Duchess Francesca von Habsburg, a philanthropist with a passion for the ocean and conservation. The name of the Foundation comes from a rock along the coast which looks like the bottom jaw of a massive alligator (Even though we only have crocodiles in Jamaica).
+
+In the years since their establishment, AHF has made it their mission to work towards fish filled seas, abundant reefs and thriving communities. And after a year working with the people there, I can confirm that's more than just a tagline to them. The team by AHF works for community development, marine conservation and marine research.
+
+AHF has several initiatives they are a part of, you can check them out [here](https://www.alligatorheadfoundation.org/), but what I want to mention specifically is their fish sanctuary, and their dive shop.
+
+## East Portland Fish Sanctuary
+
+The Foundation is partly responsible for the East Portland Fish Sanctuary. Technically, it's "The East Portland Special Fisheries Conservation Area", but I find sanctuary has a nicer ring to it.
+
+For context, my country, Jamaica, has the most overfished water's in the English speaking Caribbean. We are also a small island state where more than half of us live within 5km of the coast. With a mix like that, you can see that our fish populations are under serious pressure.
+
+And to that effect, Jamaica has established a number of Fish Sanctuaries. The basic idea is pretty simple. An area is designated a no take zone. Within the bounds of the sanctuary *almost* no fish can be legally taken. This means that the fish living inside have room to grow and mature and reproduce. Once these fish are of a sufficient size, they move out of the crowded sanctuary and are available to be fished and caught.
+
+It's a sustainability measure, and it improves fish numbers and size (or fish biomass) inside and directly outside the sanctuary. AHF's sanctuary is among the larger ones in Jamaica and through working with the fishing community, they help ensure sustainability for generations to come.
+
+I did say almost no fish can be caught, with permission, one invasive species can be caught with the sanctuary. The lionfish. These guys aren't native to the Caribbean, and eat a lot of our native species, so to control their numbers we return the favour and eat them back. I can personally confirm that they are delicious.
+
+![Confirmation that Lionfish is Delicious](/docs/posts/AHF and Fish Sanctuaries/20230312_130123.jpg){fig-align="center"}
+
+## Lady G's Dive Shop
+
+[![Lady G'Divers Logo](/docs/posts/AHF and Fish Sanctuaries/LadyGLogo.jpeg){fig-align="center" width="391"}](https://www.ladygdiver.com/)
+
+The second cool thing is the dive shop. Lady G'Diver is a fully stocked dive shop operating within the sanctuary. Personally and regrettably, I'm so busy working whenever I go that I've never had time to dive with them myself. But its very much something I'd love to do and am looking forward to when the opportunity comes.
+
+![Me working at AHF instead of diving](/docs/posts/AHF and Fish Sanctuaries/IMG_5641.JPEG){fig-align="center" width="496"}
+
+The dive shop, which you can check out more of at [their website](https://www.ladygdiver.com/) or [their instagram](https://www.instagram.com/ladygdiverjamaica/), offers dive excursions throughout the sanctuary. As a sanctuary, the area has more fish and larger fish then you would see in the surrounding areas. The area is also teeming with other wildlife. I've seen rays and turtles just passing by while I'm above water on the boat.
+
+![The beautiful blue waters at San San in the Sanctuary. You may see a turtle if you look closely](/docs/posts/AHF and Fish Sanctuaries/20230314_094827.jpg){fig-align="center" width="550"}
+
+I'm a simple diver, a reef with lots of pretty fish already gets me excited. But this dive shop also has even more special attractions I'm dying to jump in the water and see.
+
+First is their underwater statue garden. They have a number of statues underwater for us scuba divers to explore. It's the only one in Jamaica and I can't wait to dive it. All I need is time, an opportunity and a few good dive buddies.
+
+The second is a little newer. There was recently a wreck sunk in the sanctuary, the SS Bogle. This decommissioned Jamaica Defence Force ship was sunk in the sanctuary, and now serves as an artificial reef, with fish coming in to colonise and live there. I've done a wreck dive before on my advanced open water certification, and I loved that experience. I'm absolutely jumping at the chance to dive this wreck as soon as I can.
+
+My favourite dive site is Rio Bueno near Discovery Bay, Jamaica, I'm hoping diving with Lady G' will change that.
+
+![My Last Wreck Dive, a 10/10 experience](/docs/posts/AHF and Fish Sanctuaries/Wreck front.jpg){fig-align="center" width="490"}
+
+There's also water sports like glass-bottom boat rides over the reef, kayaking and snorkeling for the non divers among us. Of course you could get certified at the dive shop, and become a diver like me.
+
+I promise I'll review diving in the sanctuary as soon as I do it. You'll be seeing pics, hearing my thoughts and everything.
+
+And I haven't even mentioned what may be the best thing about AHF yet. I love the team working there. I've made friends with the staff and team there. They're just really cool, solid people and they're out there working to protect and sustain the sea like me.
+
+I haven't mentioned everything, like their outreach activities, or their turtle hatching program, or their amazing coral nursery and planting. But even just from this you can tell I have nothing but praise and good vibes for the team at AHF and the amazing work they do.
+
+Until next time, walk good.
