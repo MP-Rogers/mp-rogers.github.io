@@ -1,0 +1,169 @@
+---
+title: "Analysing Someones Scuba Logs"
+author: "MP Rogers"
+date: 10-04-2023
+format: 
+    html:
+       code-fold: true
+       code-summary: "Click Here to see the code"
+editor: visual
+image: MyLogbook.jpg
+categories:
+- Marine Biology
+- Data Analysis
+- Diving
+---
+
+## Analysing Dive Logs
+
+This post is one I have a feeling I'm really going to enjoy. and for a couple of reasons.
+
+1.  It merges my love for the ocean with analysing data.
+
+2.  Its about diving!
+
+3.  Its a chance for me to attempt something new with regards to analysis skills.
+
+I found this dataset on Kaggle, ([you can check it out here](https://www.kaggle.com/datasets/jeremyfauchet/scuba-diving-logbook)). It basically follows the scuba log book of a diver. As a diver myself, I found this super interesting. It occurred to me I could use my own logbook, but as of the time of writing, this diver has more than ten times as many dives as me, with a lot more variety. One day, I hope to catch up. But for now, I'll analyse their logbook.
+
+## Why do divers even have logbooks?
+
+Some of you might be asking what even is a diver's logbook, or why we keep them. Logbooks are where divers record logs of their dives. They are pretty common, and pretty much all divers are taught to keep them when we are getting trained(although some of us definitely fall off track.)
+
+Logbooks are meant for us diver' to track our progress and improvement and remember our fun dives. We usually record things like:
+
+1.  The dive site
+
+2.  The depth(maximum depth, or average depth or both)
+
+3.  The time we were underwater
+
+4.  The conditions underwater(are the waves and currents strong? How far can you see?)
+
+5.  The amount of gas we use on the dive
+
+Other things we include might be any wildlife we saw, any equipment we used and personal notes or feelings about the dive.
+
+We don't all use physical logbooks, in 2023 there are a number of apps available. Still some people do still find it satisfying to log their dives on pen and paper...at least to a point.
+
+![My beat up Log Book has seen a couple dives, and will be seeing a couple more](MyLogbook.jpg){fig-align="center" width="395"}
+
+First lets prepare. As always, I'm using R for analysis. I'll load the packages I need from R.
+
+```{r}
+#| label: Load Packages
+#| warning: false
+library(tidyverse)
+library(ggpubr)
+library(lubridate)
+library(plotly)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+```
+
+Lets read in the data, look around and see what this person recorded:
+
+```{r}
+#| label: Import Data
+Dataset<-read.csv("scuba_diving_logbook - cleaned_data.csv")
+glimpse(Dataset)
+```
+
+That's a start. There's well over 400 dives here. I'm impressed. The person has also recorded the location, coordinates, how they entered the water and the depth and time they were underwater. I would have expected to see the amount of gas they used, but we work with the data we have. A couple of the numbers I'd like to work with are saved as text. They'll need to be converted before I can begin.
+
+```{r}
+#| label: Convert numbers and dates
+#| warning: false
+Dataset <- Dataset |> mutate(depth.m. = as.numeric(depth.m.)) |>
+  mutate(duration.min. = as.numeric(duration.min.)) |> 
+  mutate(date = as.Date(date))
+```
+
+Once that sorted. I can get into the questions.
+
+There are really two major questions I can get from a set like this. If I had them in person, I could ask about gear, their favourite dives, all sorts of things. But as it stands, my two big questions are:
+
+1.  Where have they been diving?
+
+2.  How much diving have they done?
+
+## Where have they been diving?
+
+Let's see where this diver has been. I'm going to look at this at a country level. This is partly for simplicity, and partly because personally, I want to dive in other countries so I want to see where this person has been.
+
+```{r}
+#| label: Column Dive Plot
+#| warning: false
+D<-Dataset |> select(country, id) |> group_by(country) |> 
+  tally(name = "no.dives") |>
+  rename("region" = "country")
+
+country.dives<-ggplot(D, mapping = aes(x = region, y = no.dives, fill = region))+
+  geom_col()+
+  ylab("Number of Dives")+
+  xlab("Country")+
+  ggtitle("Number of Dives in Each Country")+
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.5), legend.position = "none")
+country.dives<-ggplotly(country.dives)
+country.dives
+```
+
+Now, I think graphs, especially interactive ones like this are way better than plain text for communicating data. Like I've mentioned, it just communicates a lot more intuitively, at least it does for me. But there's other ways to tell the same story. For example, I'm going to try something completely new, and communicate the same data above like this:
+
+```{r}
+#| label: SF map
+#| warning: false
+theme_set(theme_bw())
+world<-ne_countries(scale = "medium", returnclass = "sf")
+D<-Dataset |> select(country, id) |> group_by(country) |> 
+  tally(name = "no.dives") |>
+  rename("name" = "country")
+map.data<-left_join(world, D, by="name")
+fill.map<-ggplot(map.data, aes(fill = no.dives, text = paste("Country: ", name, " \nDives", no.dives)))+
+  geom_sf()+
+  ggtitle("Places this person has dived")+
+  scale_fill_gradient(name = "number of dives", low = "cyan", high = "blue", na.value = "white")+
+  theme(plot.title = element_text(hjust = 0.5))
+fill.map<-ggplotly(fill.map, tooltip = "text")
+fill.map
+```
+
+I think this is the best way to show the data. There are some caveats. I figured this out while coming up with the post, so there's still a good deal of skill left to pick up. A huge part of my writing is being authentic though, so any readers (and myself) can see how far I come in the process.
+
+With that said, let's glance at the map itself. You can hover over it with your cursor to see the name and number of dives for a specific country. You can also click and select areas to zoom in for more detail. If you zoom into the Caribbean, you'll find a few other sites that are hidden by size.
+
+If I wasn't sure before, I'm pretty sure this is a french diver now. Most dives are in France, and a good chunk of the rest are in fresh-speaking territories. They've gone overseas on some dive trips I would love to. Up until now, I've only dived in Jamaica, and not even everywhere here.
+
+Just from the sheer number of dives, I know this person is a far more advanced diver than me. I want to see some of the depths and times of their dives. As a [PADI Advanced Open Water Diver](https://www.padi.com/courses/advanced-open-water?gclid=Cj0KCQjw1OmoBhDXARIsAAAYGSH5KnmAC6DswyqKQBpjHIu-vz9tKsMukhjIFAZcmnPOIf01rvia5QEaArkVEALw_wcB), I'm currently limited to 40 metres deep. I have a suspicion this diver has gone a bit further with their training and skills.
+
+```{r}
+#| label: Depth Time Plot
+time.and.depth<-ggplot(Dataset, mapping = aes(x = depth.m., y = duration.min., colour = gas))+
+  geom_point()+
+  xlab("Depth (metres)")+
+  ylab("Duration of dive (minutes)")+
+  labs(title= "Depth and Duration of Dives")+
+  theme(plot.title = element_text(hjust = 0.5))
+time.and.depth<-ggplotly(time.and.depth)
+time.and.depth
+```
+
+From here I can tell this is an advanced diver. Well, I could tell before, but this is confirmation. The number of dives is a huge indicator, but ignoring that, there are two things revealed here that give it away.
+
+1.  This diver has a number of gas mixes. With special training, divers can learn to use different air to affect how long they stay underwater.
+2.  This diver is pulling some crazy times and depths.
+
+This diver is using air for some dives, those are the pink ones. And those fall into the range I've done and expect. Those dives are generally 40 metres or less, for under 100 minutes. They are also using [Nitrox](https://en.wikipedia.org/wiki/Nitrox), a gas with more oxygen mix, and Trimix another altered gas.
+
+The general rule is that it's the nitrogen in your breathing gas that poses the most danger, so by changing that percentage, you can start to manage depths and times you never could on air. This definitely a more advanced diver, well beyond recreational limits.
+
+## In the Future
+
+One day, I'd like to go over my own dive logs. As a recreational diver(for the foreseeable future), I will not be diving on a ton of different gas mixes. But I do take note of some stuff not seen here like my gas consumption and animals I've seen. That would absolutely be great data to play with.
+
+But also in the future, I'd love to go on dive trips like this. The rest of the Caribbean and Gulf of Mexico would be a great start, but diving the Mediterranean like this diver, and Indonesia would definitely be dreams come true.
+
+And you know what, I'll do it. It will take planning, and saving, but I'll do it.
+
+Until next time, Walk Good

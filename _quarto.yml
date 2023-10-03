@@ -1,6 +1,5 @@
 project:
   type: website
-    twitter-card: true
   output-dir: docs
 
 website:
