@@ -1,0 +1,165 @@
+---
+title: "Why even use Data?"
+author: "MP Rogers"
+date: 10/10/2023
+format: html
+editor: visual
+title-block-banner: false
+code-fold: true
+categories:
+- R
+- Data Analysis
+---
+
+## Human Resources
+
+Today is another data analysis session. Once again, this data is from Kaggle. It's based on the results of human resources survey's from a particular company. As usual, [I'll link the data I used](https://www.kaggle.com/datasets/adityaab1407/employee-productivity-and-satisfaction-hr-data). I've also been doing some learning in the background. The analysis code is now hidden. You can check on it if you want, but it doesn't have to clog the flow of the posts, which I think is important for those, who read more for content.
+
+```{r}
+#| label: Load 
+#| warning: false
+#| echo: false
+invisible(lapply(c("tidyverse","scales","plotly","ggcorrplot","lubridate"), library, character.only = TRUE))
+Dataset <- read.csv("hr_dashboard_data.csv")
+
+```
+
+The survey collected information on a number of fields:
+
+```{r}
+#|label: Glimpse
+glimpse(Dataset)
+```
+
+Off the top of my head, we can see:
+
+1.  Personal information on the employees
+2.  Information on their role(position and department)
+3.  Information on their productivity and job satisfaction
+4.  Salary
+
+A couple of these need some editing, I'll take care of that quickly.
+
+```{r}
+#| label: clean Dates
+#| warning: false
+Dataset$Joining.Date<-as_date(Dataset$Joining.Date)
+```
+
+With that done, I'll take a quick look around the data. I'll use a corrplot. These figure shows me how "related" numerical data is. It also gives me a good idea of where to look for "stronger relationships". If you glance back to [a post](https://mp-rogers.github.io/docs/posts/1st%20World%20Data%20Analysis/WorldData.html) I did a few weeks ago, I did my corrplot way later in the process than I should have. This was in part because I was just getting back into trying to work on my data analysis, and in part because I was rushing to get the post out. Now, I'm learning from my mistakes and getting the process down.
+
+```{r}
+#| label: Corr plot
+#| warning: false
+numerics<-Dataset |> select_if(is.numeric) |> na.omit()
+cor.matrix<-cor(numerics)
+cor.plot<-ggcorrplot(cor.matrix, method = "circle", type = "lower", hc.order=TRUE,                         lab = TRUE,
+                     title = "Correlation Matrix of Human Resources Info")
+cor.plot<-ggplotly(cor.plot)
+cor.plot
+```
+
+This stage of the process is often just called exploratory data analysis, just looking around to see a general field of the data before diving in on specific questions.
+
+This lets me know where to focus in on. Namely, that red cluster up top. That strong relationship between projects completed(a fraction out of 25), the age and the salary of the employees.
+
+It also raises some curious points right off the bat. Namely, salary and satisfaction rate in this company are basically unrelated. While the highest paid employees make the most, it doesn't necessary mean that much for job satisfaction.
+
+For this analysis, I want to focus on one question specifically, What impacts an employee's salary?
+
+## Just what affects my Salary?
+
+I'd like to frame this post a little differently. As much as I like making pretty charts, the benefit of this data is really being able to make better decisions. While it may not predict the future exactly; more knowledge, especially more useful knowledge, helps us make better choices. More effective choices are what help us meet our goals, no matter who we are.
+
+So I'll put myself in the position of someone else, and invite you to join with me. Firstly, I'd like to think of myself as a young professional interested in this company. I want to know what matters to get my salary as high as it can be.
+
+Clearly other things matter. For example, job satisfaction is important. Exactly how much money you are willing to trade off for job satisfaction is a personal choice. In this case, I'll assume our imaginary professional only cares about their salary for now.
+
+I know from above that the salary is linked pretty heavily to projects completed, so, I'll look into that. Right away you see the benefit of exploring the data, I know where to look, and don't have to search for every possible connection since I have general direction.
+
+```{r}
+#| label: Salary Projects scatterplot.
+salary.age.plot<-ggplot(Dataset, mapping = aes(x = Projects.Completed, y = round(Salary), colour = Department))+
+  geom_point(alpha= 0.8, size = 1.2)+
+  labs(title ="Plot of Salary and Projects completed at a certain company")+
+  xlab("# Projects Completed out of 25")+
+  ylab("Salary")+
+  scale_y_continuous(labels = dollar_format())+
+  theme(plot.title = element_text(hjust = FALSE))
+salary.age.plot<-ggplotly(salary.age.plot)
+salary.age.plot
+```
+
+Alright. There's a pretty good figure. You can clearly "see" the line running down the middle of those points and there's a definite relationship. As an employee here, completing projects definitely helps improve my salary. So I can take steps there to get my salary up here.
+
+But that's not the only question I can ask. Lets say (for arguments sake) I'm a woman. I want to know if at this company, I'm likely to make less than a man working here, on average.
+
+ (Please note that when I say average in this context, I mean median. Medians are less distorted by huge outliers at the top or bottom)
+
+```{r}
+#| label: Gender Salary Box Plot
+Gender.Wage.Boxplot<- Dataset |> ggplot(mapping = aes(x = Gender, y = Salary, fill = Gender))+
+  geom_boxplot(notch = TRUE)+
+  scale_y_continuous(labels = dollar_format())+
+  labs(title = "Boxplot showing salaries in a certain company by gender")+
+  theme(legend.position = "none")
+Gender.Wage.Boxplot<-ggplotly(Gender.Wage.Boxplot)
+Gender.Wage.Boxplot
+```
+
+ (Please note that when I say average in this context, I mean median. Medians are less distorted by huge outliers at the top or bottom. Still, Things hide in averages, I'll go just a little deeper. After all, this is our salary I'm talking about.)
+
+```{r}
+#| label: Density Plot
+gender.hist<-ggplot(Dataset, mapping = aes(x = Salary, fill = Gender))+
+  geom_density(alpha = 0.5)+
+  scale_x_continuous(labels = dollar_format())+
+  ggtitle("Salary Distribution by Gender")+
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank())
+print(gender.hist)
+```
+
+Well then. Now I can see that the average woman makes more than the average man in this company, especially around that \$100 000 range. The men seem to have higher outliers, or a few at the top making way more money, but they do make less on average. At any rate, being a woman doesn't hurt my salary prospects on average.
+
+Finally, If I want to make more money, what department should I focus on? In practice, it depends on my skillset, job openings and all that, but for this exercise, let's see what can help me maximize my salary,
+
+```{r}
+#| label: Department Wage boxplot
+Department.Wage.Boxplot<- Dataset |> ggplot(mapping = aes(x = Department, y = Salary, fill = Department))+
+  geom_boxplot(alpha = 0.8, notch = TRUE)+
+  scale_y_continuous(labels = dollar_format())+
+  labs(title = "Boxplot showing salaries in a certain company by department")+
+  theme(legend.position = "none")
+Department.Wage.Boxplot<-ggplotly(Department.Wage.Boxplot)
+Department.Wage.Boxplot
+```
+
+This makes it easy to see. The I.T department has the highest average salary. Finance also has a pretty good average salary, and the highest "floor" or low end salary in the company. Now, as a prospective applicant, I would know where to focus. Finance and IT are pretty close though. At this point, the choice might well come down to job satisfaction(even though I said we didn't care).
+
+```{r}
+#| label: Job Satisfaction across departments
+Department.Satisfaction<-Dataset |> ggplot(mapping = aes(x = Department, y = (Satisfaction.Rate..../100), fill = Department))+
+  geom_boxplot()+
+  labs(title = "Job Satisfaction by Department")+
+  ylab("Satisfaction Rate (%)")+
+  scale_y_continuous(labels = percent_format())+
+  theme(plot.title = element_text(hjust = 0.5))
+Department.Satisfaction<-ggplotly(Department.Satisfaction)
+Department.Satisfaction
+```
+
+That might make the difference for I.T as our professional. A little extra job satisfaction for what's basically the same pay.
+
+On the other hand, If i was an employer/manager, This info would help with hiring. I'd know who to pay attention to, and which staff are most important to retain. I'd also know which departments on my team are the least and most satisfied. It might even explain things like employee turnover I might be dealing with.
+
+## Wrapping Up
+
+And that's what I want to highlight. Data helps us see connections and information to drive better decision making. We can't know the future, but this puts us in a position to make more educated choices.
+
+I have a couple hopes for myself, data analysis wise. I'm largely self taught. I intend to keep growing and improving. I want to get good enough that it represents a potential income source. But I also want to cultivate that way of thinking. I want to grow and sharpen the mindset that sees connections, asks questions and uses data to find answers. I think my science background gives me a little start there, but its definitely something I plan to keep improving.
+
+For my next few data analysis posts, I've been considering data analysis on marine biology data sets. Its a good mix of my interests, and I'd love to look into that niche specifically.
+
+Until next time, Walk Good.
