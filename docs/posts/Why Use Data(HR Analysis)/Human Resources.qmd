@@ -6,6 +6,7 @@ format: html
 editor: visual
 title-block-banner: false
 code-fold: true
+image: "Briefcase.png"
 categories:
 - R
 - Data Analysis
