@@ -60,7 +60,7 @@ cor.plot<-ggplotly(cor.plot)
 cor.plot
 ```
 
-This stage of the process is often just called exploratory data analysis, just looking around to see a general field of the data before diving in on specific questions.
+This stage of the process is often just called exploratory data analysis, just looking around to see a general feel of the data before diving in on specific questions.
 
 This lets me know where to focus in on. Namely, that red cluster up top. That strong relationship between projects completed(a fraction out of 25), the age and the salary of the employees.
 
@@ -94,8 +94,6 @@ salary.age.plot
 Alright. There's a pretty good figure. You can clearly "see" the line running down the middle of those points and there's a definite relationship. As an employee here, completing projects definitely helps improve my salary. So I can take steps there to get my salary up here.
 
 But that's not the only question I can ask. Lets say (for arguments sake) I'm a woman. I want to know if at this company, I'm likely to make less than a man working here, on average.
-
- (Please note that when I say average in this context, I mean median. Medians are less distorted by huge outliers at the top or bottom)
 
 ```{r}
 #| label: Gender Salary Box Plot
