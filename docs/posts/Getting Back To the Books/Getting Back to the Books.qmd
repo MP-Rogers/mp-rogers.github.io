@@ -53,7 +53,7 @@ One thing I've taken to doing is using an online tool called [Notion](https://ww
 
 I use [this template](https://www.notion.so/templates/scientific-papers-knowledge-hub) some kind soul came up with online and record the titles, links and broad topics of the papers I've read. Then I'll write my summaries, insights and ideas into the program, and everything will get stored online. I personally find summarising and engaging like that makes me remember more than just glancing through passively.
 
-![A screenshot of the library where I keep papers i have read, with summaries and citations. ](Lit Review Screenshot){fig-align="center"}
+![A screenshot of the library where I keep papers i have read, with summaries and citations.](Lit%20Review%20Screenshot){fig-align="center"}
 
 ## What Have I realised?
 
