@@ -25,7 +25,7 @@ For a lot of people people, the fear of sharks is pretty much the fear that the 
 
 However, I'm of the view It is also exacerbated by the media. Jaw's may be the principal offender. That movie did a lot for putting sharks into the public consciousness as man eating sea monsters, but its not the only one. There are tons of shows, series and media that portray sharks as, if not mindless man-eaters, villains. Heck, I sat through a couple cheesy ones myself like Sharknado (and then proceeded to wonder how they kept making sequels). This most certainly doesn't help. Its only very recently I've realised the impact and power of a good story. I'll get back to that bit later.
 
-![Jaws, one of the movies that shaped perception of sharks for the worst](Jaws Poster.jpg){fig-align="center" width="470"}
+![Jaws, one of the movies that shaped perception of sharks for the worst](Jaws%20Poster.jpg){fig-align="center" width="470"}
 
 But there's something deeper. The way I see it fear of sharks is, in a lot of ways, a fear of the unknown and being out of one's element. The less we know about something, the more the fear can play on our minds. People don't know much about sharks (and the ocean as a whole really.)
 
@@ -39,13 +39,13 @@ So today, we'll learn a little about sharks and start chipping away at that fear
 
 There are tons of sharks. Some scarier looking than others. There are huge slow moving sharks which only eat prey the size of small fish and shrimp.
 
-![I'm sure this is not what you thought when I said Shark. This guy is a whale shark. which is 100% a shark and not a whale.](Whale Shark.jpg){fig-align="center"}
+![I'm sure this is not what you thought when I said Shark. This guy is a whale shark. which is 100% a shark and not a whale.](Whale%20Shark.jpg){fig-align="center"}
 
 But when you hear me say shark, I doubt you picture a whale shark. You likely think something like a hammerhead, or a great white shark. Sharks are predators. But they aren't usually aren't hunting for you.
 
 Perhaps one of the biggest things to impart here is that sharks aren't mindless. Sharks are usually selective about what they eat. It makes sense, it takes a lot of energy to catch something to eat, sharks are smart enough to get the best "bang for their buck." They want the most energy/calories for the least effort.
 
-![Sharks like oily, fatty food(something we have in common). This is usually things like tuna or seals. Definitely not you](Seal getting chomped.webp){fig-align="center"}
+![Sharks like oily, fatty food(something we have in common). This is usually things like tuna or seals. Definitely not you](Seal%20getting%20chomped.webp){fig-align="center"}
 
 Of course, even if we aren't on the menu, the bleeding fish that a spearfisher carries is way easier to get than catching a live one. Since its easy, the lazy (I mean efficient) shark will usually go after it, but keeping it away from the body usually manages that risk just fine.
 
@@ -57,7 +57,7 @@ Sharks do get curious and some may take a test bite, but you'll find we just are
 
 There are ways to tell if a shark is out hunting or just cruising. A cruising shark moves smooth; slowly and evenly moving through the water. When they tuck their fins down and start moving jerky, or circling? That's a hunting shark. Sure they have different body language cues than a dog or a person, but you can learn them all the same.
 
-[![The body language of a shark, you can learn if that shark is looking for a bite or just passing by. ](shark-behaviors-chart.png){fig-align="center" width="349"}](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.csulb.edu%2Fshark-lab%2Fstaying-safe-at-the-beach&psig=AOvVaw32TTPHHtCc_Ac8Nxg_18Mf&ust=1712280765292000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPj6iIi1p4UDFQAAAAAdAAAAABAG)
+[![The body language of a shark, you can learn if that shark is looking for a bite or just passing by.](shark-behaviors-chart.png){fig-align="center" width="349"}](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.csulb.edu%2Fshark-lab%2Fstaying-safe-at-the-beach&psig=AOvVaw32TTPHHtCc_Ac8Nxg_18Mf&ust=1712280765292000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPj6iIi1p4UDFQAAAAAdAAAAABAG)
 
 I'd of course like to establish that if you decide to mess with the shark...well...that ones on you. None of this is to say sharks are harmless. But there's tons of predators we acknowledge are hunters but don't think of as monsters. Look at Lions for example.
 

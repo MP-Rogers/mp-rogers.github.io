@@ -2,7 +2,7 @@
 title: "The Importance of Coral"
 author: "MP Rogers"
 date: 03-19-2024
-catgories:
+categories:
 - Marine Biology
 image: "DairyBullOANN1.jpg"
 ---
