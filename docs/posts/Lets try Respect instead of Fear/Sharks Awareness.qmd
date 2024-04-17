@@ -11,7 +11,7 @@ Today, I'll be writing about sharks. In truth, this post is a long time coming. 
 
 Just a disclaimer, I've only seen a nurse shark once in the water and didn't photograph it. As such all of the images here are borrowed from the internet, credit for them goes to the photographers, not me.
 
-![](Shark Collage.jpg){fig-align="center"}
+![](Shark%20Collage.jpg){fig-align="center"}
 
 ### Just what makes them so scary
 
