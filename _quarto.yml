@@ -9,10 +9,13 @@ website:
       - about.qmd
       - text: Blog
         href: index.qmd
+      - text: Portfolio
+        href: portfoliohub.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com/Rogers_M_P
+      
 format:
   html:
     theme: zephyr

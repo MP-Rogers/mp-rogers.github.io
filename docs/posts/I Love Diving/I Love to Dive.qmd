@@ -51,7 +51,7 @@ And even having dived the same sites multiple times, there's always some new wil
 
 You find an instructor and learn to dive.There are quite a few organisations as I listed above, but they are all "roughly" the same. If your instructor is good, your training will be good, no matter the organisation.
 
-![You can learn to dive with an instructor from any of these organisations](Dive Orgs.jpg){fig-align="center"}
+![You can learn to dive with an instructor from any of these organisations](Dive%20Orgs.jpg){fig-align="center"}
 
 It's obviously a paid course, and not necessarily a cheap one. On top of that, to my great pain, dive gear is expensive. But you need not buy it all at once doing your course. There's benefits to having your own gear, namely building up familiarity with it. But a lot of gear works the same, and a lot of places where most people dive will carry rental gear. You don't need to buy a full set to start.
 
