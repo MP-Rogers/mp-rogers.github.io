@@ -1,0 +1,20 @@
+---
+title: "Portfolio (under Construction)"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+Testing testing 123.
+
+Add text to introduce portfolio pieces.
+
+Add a link to my linkedin.
+
+Blah blah blah.

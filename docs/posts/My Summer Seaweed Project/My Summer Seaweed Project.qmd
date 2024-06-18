@@ -32,6 +32,4 @@ As a scientist, I believe in using data, quantifying results and making data dri
 
 From this you can easily see the crazy growth my crop managed to achieve. *Eucheuma* is cultivated around the world and known for its rapid growth, commnly said to triple in size in 6 weeks. My *Eucheuma* managed to match these figures. There's a lot more detailed analysis that went into the report, but to put it simply:
 
-![Graph Showing the mean mass of my samples over the experiment](Mean%20Seaweed%20Mass%20Plot.png){fig-align="center"}
-
 The data and growth I recorded was more than encouraging, The possibility of cultivating seaweed in Jamaica and the wider Caribbean seems bright and hopeful. I personally intend to continue working at it, and establishing mariculture in Jamaica.
