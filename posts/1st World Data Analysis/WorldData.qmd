@@ -1,0 +1,247 @@
+---
+title: "1st Attempt at Analysing World Data"
+author: "MP Rogers"
+format: html
+editor: visual
+date: 09-21-2023
+categories:
+- R
+- Data Analysis
+image: "World-map-countries-flags.jpg"
+title-block-banner: false
+---
+
+# World Data Analysis
+
+Here is another attempt at me trying to practice and get used to using R. I chose this one for a few reasons: One, I do have a passing interest in economics and development. As a Jamaican from a so called third world country/developing state, one of my big wishes is to see Jamaica and other Caribbean nations "develop" in a way that helps the citizens live better lives.
+
+Additionally, depending on what we find in [this dataset](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023) on countries around the world in 2023, I figure there may be some good insights to be gained. So its time to explore and see what we find.
+
+Let's begin by importing the data:
+
+```{r}
+#| label: Import data and load packages
+#| warning: false
+library(tidyverse)
+library(stringr)
+library(plotly)
+library(scales)
+library(corrplot)
+library(ggcorrplot)
+dataset<-read.csv("world-data-2023.csv")
+```
+
+Now that the data has been imported, I'll have a little look to see what I'm working with.
+
+```{r}
+#| label: Preliminary Glance
+glimpse(dataset)
+```
+
+This shows a great deal. In this dataset, there are 195 rows or records. Each one represents an individual country. There are also 35 columns or fields. Each field represents a specific observation. The function in R also gives me the names and data types of these fields. Lots of the fields appear to be country demographics and general information. There's a lot to be judged here.
+
+And from this I can see the first issue. A lot of these fields that I would expect to be numbers are formatted as characters or text. Its not an impossible problem to fix, but if it's not dealt with, it will make doing any analysis annoying at best and impossible at worst.
+
+## Re-formatting
+
+Cleaning 35 columns now, saves me a lot of heartache in the future. I won't show it all but here are some examples of how I could do that.
+
+```{r}
+#| label: Display cleaning
+#| warning: false
+dataset<- dataset |> mutate (GDP = GDP |> str_remove_all("[$,]") |> as.numeric())
+dataset$Density..P.Km2.<-as.numeric(dataset$Density..P.Km2.)
+
+```
+
+Thankfully, there are more efficient ways to work
+
+```{r}
+#| label: Efficiently Reformatting
+#| warning: false
+c.names<-colnames(dataset)
+cols.to.format<-c.names[-c(1,3, 9, 13, 21, 25)]
+cols.that.can.stay<-c.names[c(1,3, 9, 13, 21, 25)]
+dataset<-dataset |> 
+  mutate(across(.cols = cols.to.format,.fns = ~str_remove_all(.x, "[$,%]")|> 
+                  as.numeric()))
+
+```
+
+What I've done above is to convert all the relevant character or text fields/columns into numbers so I can work with them.
+
+## What Do We want to know?
+
+Now comes the brainstorming. There's a lot of data here. A lot of the questions that come to mind have to do with GDP. GDP, the gross domestic product, is essentially the dollar value of all the "Stuff" bought and sold in a country. You could also look at it as the country's income. It's not a perfect measure, but it can be useful. At the very least it gives me some questions to ask.
+
+The questions that pop out to me are:
+
+1.  How does GDP relate to college enrollment?
+
+2.  How does Gasoline price relate to GDP?
+
+3.  Is there any relationship between latitude, longitude and GDP?
+
+4.  How closely are CO2 emissions and GDP linked?
+
+## How does GDP relate to college enrollment?
+
+Let's start on the first one,
+
+```{r}
+#| label: Plot GDP and College enrolment
+#| warning: false
+gdp.vs.college<-ggplot(dataset, mapping = aes(y = GDP, x = Gross.tertiary.education.enrollment...., colour = Country))+
+  geom_point(alpha = 0.8)+
+    xlab("Gross College Enrollement")+
+  ylab("GDP(USD)")+
+  ggtitle("GDP and Gross College enrollment across countries")+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")+
+  scale_y_continuous(labels = label_dollar())
+gdp.vs.college<-ggplotly(gdp.vs.college)
+gdp.vs.college
+  
+```
+
+So there's a problem or two here. These GDP's have a huge range. Which makes sense, some of these countries have WAY more people that others, what makes sense might be comparing the income per person instead. This is the GDP per capita. From here on out, I'll use GDP per capita, to account for those passive population differences.
+
+```{r}
+#| label: Plot GDP per capita and College enrolment
+#| warning: false
+dataset<- dataset |> mutate(GDP.per.capita = round((GDP/Population), 2)) |> na.omit()
+gdp.per.capita.vs.college<-ggplot(dataset, mapping = aes(y = GDP.per.capita, x = Gross.tertiary.education.enrollment...., colour = Country))+
+  geom_point(alpha = 0.8)+
+  geom_smooth(method = "lm", se = FALSE)+
+  ggtitle("GDP Per capita and College enrollment in various countries")+
+  xlab("Gross College Enrollement")+
+  ylab("GDP per Capita (USD)")+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")+
+  scale_y_continuous(labels = label_dollar())
+  
+gdp.per.capita.vs.college<-ggplotly(gdp.per.capita.vs.college)
+gdp.per.capita.vs.college
+```
+
+This is a little better. While its scattered, and there are definitely outliers, you can definitely see an upward trend. It looks like generally, more college enrollment means more income per person. But it also looks like the more people in college the greater the effect. I suppose it means there's more people with more knowledge and skills to mix and use to generate income together by collaborating.
+
+## Gas Prices and GDP
+
+```{r}
+#| label: Gas vs GDP per capita
+#| warning: false
+gas.vs.gdp.per.capita<-ggplot(dataset, mapping = aes(x = Gasoline.Price, y = GDP.per.capita, colour = Country))+
+  geom_point()+
+  geom_smooth()+
+  xlab("Gasoline Prices per litre")+
+  ylab("GDP per Capita (USD)")+
+  ggtitle('GDP per Capita and Gas Prices Around the World')+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")+
+  scale_y_continuous(labels = label_dollar())+
+  scale_x_continuous(labels = label_dollar())
+gas.vs.gdp.per.capita<-ggplotly(gas.vs.gdp.per.capita)
+gas.vs.gdp.per.capita
+```
+
+This relationship is actually a whole lot weaker than I imagined. I wish there was electricity price or some general energy price measure instead. The relationship between gas price and GDP isn't too strong at all. Which is fine. Sometimes the answer to a question is just "there's nothing much to see here".
+
+## Latitude, Longitude and GDP
+
+```{r}
+#| label: Latitude, Longitude and GDP
+#| warning: false
+cord<- dataset |> select("Latitude", "Longitude", "GDP.per.capita") |>
+  mutate(Latitude = abs(Latitude)) |> mutate(Longitude = abs(Longitude)) |>
+  na.omit()
+cor.matrix<-cor(cord)
+ggcorrplot(cor.matrix, type = "upper", lab = TRUE)+
+  labs(title = "Correlation between Latitude, Longitude and GDP per Capita")
+  
+```
+
+There's not quite as much going on in this one. The GDP per capita is kind of correlated to the latitude. But I've seen stronger relationships. that number in red shows us that there is something there. The closer it is to 1 and redder that square, the stronger that relationship would be.
+
+## CO2 and GDP
+
+My question here is whether the CO2 emissions of a country are strongly related to its GDP. If working to produce things for income means more CO2, then it generally follows that countries with a higher GDP should emit more.
+
+I'll start off looking graphically. I find its better for intuition.
+
+```{r}
+#| label: CO2 vs GDP per capita
+#| warning: false
+CO2.vs.gdp.per.capita<-ggplot(dataset, mapping = aes(x = Co2.Emissions, y = GDP.per.capita, colour = Country))+
+  geom_point()+
+  geom_smooth()+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")+
+  scale_y_continuous(labels = label_dollar())+
+  labs(title = "GDP per Capita and CO2 Emissions for various countries")+
+  xlab("CO2 Emissions in tonnes")+
+  ylab("GDP per Capita in USD")
+CO2.vs.gdp.per.capita<-ggplotly(CO2.vs.gdp.per.capita)
+CO2.vs.gdp.per.capita
+```
+
+From this graph I can see a few things. Firstly, we have a few massive outliers. If you check the far right, we see China producing tons of CO2, and the US as well. Other countries are producing far less. We also have Liechtenstein, with a very high GDP per capita with pretty low emissions. For the most part though, countries are clustered towards relatively lower emissions.
+
+There are a couple ways I can sort through this, I could remove the outliers. China's huge emissions may just be because of its huge population. I could adjust by seeing what the CO2 per person is.
+
+```{r}
+#| label: CO2 and GDP per Capita
+#| warning: false
+dataset <- dataset |> mutate(co2.per.capita = Co2.Emissions/Population) |> na.omit()
+co2.gdp.plot<-dataset |> ggplot(mapping = aes(x = co2.per.capita, y = GDP.per.capita, colour = Country))+
+  geom_point()+
+  geom_smooth()+
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")+
+  scale_y_continuous(labels = label_dollar())+
+  labs(title = "GDP per Capita and CO2 Emissions per capita for various countries")+
+  xlab("CO2 Emissions per capita in tonnes")+
+  ylab("GDP per Capita in USD")
+
+co2.gdp.plot<-ggplotly(co2.gdp.plot)
+co2.gdp.plot
+```
+
+Now we're seeing a little more detail. Correcting for the huge difference in populations made a difference. We see a general upward trend, but there are still plenty of outliers, and the relationship could be a lot stronger. There are ways to model and get more info in this relationships, but that's a topic for later.
+
+## General Correlation
+
+So, I'll admit. This should be one of the first steps I took. In trying to put these posts out relatively fast and consistently, I may have rushed the process. There's a life lesson in there somewhere. I could move this to the top, but I think I'll leave it here. It will show my actual thought process as I went through this analysis, and be a reminder to go through more methodically next time. In fact, I'll follow up with this exact data at some point in the future
+
+This is a correlation matrix. I've used them before in my [previous post here](https://mp-rogers.github.io/posts/Student%20Analysis/Student%20Performance%20Document.html) and I'm kind of fond of them. Essentially, it's a graphical way to see how closely related two variables or properties or attributes are. It's really applicable for numeric data, but on a dataset like this, doing one is invaluable.
+
+```{r}
+#| label: General Correlations
+#| warning: false
+numerics<-dataset |> select_if(is.numeric) |> na.omit()
+numerics<-cor(numerics)
+general.cor.plot<-ggcorrplot(numerics, hc.order = TRUE, type = "upper")+
+  theme(axis.text.x = element_blank(), axis.text.y = element_blank())+
+  labs(title = "General Correlations")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+general.cor.plot<-ggplotly(general.cor.plot)
+general.cor.plot
+```
+
+The "redder" the numbers, the more strongly related the variables are. For example two variables which are exactly the same would show up as the reddest. On the flip side, if two variables are related strongly, in opposite directions, they would show up the "Bluest". These are "Negatively correlated."
+
+Because of how much data there is, I've opted to remove the labels and make the graph interactive. If you hover your mouse over a square, you should see the variables that are being compared.
+
+You can see 3 clusters of red, showing areas of strongly related variables, and one major blue cluster showing variables which are negatively correlated. And from this there's so many questions. Each of those clusters represent sets of relationships we could ask about. In fact, you can hover your mouse over the squares to see for yourself.
+
+Just hovering the mouse over each cluster:
+
+1.  The bottom red cluster has to do with relationships with "Birth stuff" like birth and fertility rates
+
+2.  The middle red cluster has to do with "Population size stuff", including urban population, army size ect.
+
+3.  The top red cluster is more "Income and demographics stuff", like minimum wage and life expectancy.
+
+4.  The blue cluster is "Birth Stuff', connecting birth stuff to income and life expectancy
+
+So you've seen my process at the moment, and some of the mistakes I've made. One day soon, you'll see me re-attempt. Until next time, walk good.
+
+```{r}
+sessionInfo()
+```

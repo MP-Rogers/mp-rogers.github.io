@@ -1,0 +1,446 @@
+id,date,category,country,city,site,gps_position_lat,gps_position_long,maritime location,stand,type,circuit,gas,duration(min),depth(m)
+2H,2005-01-16,Hobbies,France,Marseille,Les moyades,,,Mediterranean sea,Boat,Technical,Open circuit,AIr,43,"24,5"
+3H,2005-05-01,Hobbies,France,Marseille,La grotte mystérieuse,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,37,17
+4H,2005-05-22,Hobbies,France,Cassis,Les pierres plates,,,Mediterranean sea,Seaside,Technical,Open circuit,Air,57,"18,1"
+5H,2005-07-14,Hobbies,France,Marseille,La pointe du soldat,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,16
+6H,2005-09-04,Hobbies,France,Marseille,Pain de sucre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,33,19
+7H,2005-10-02,Hobbies,France,Marseille,Calanque de la Poire,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,25
+8H,2005-10-09,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,37,23
+9H,2006-06-11,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,21
+10H,2006-10-07,Hobbies,France,Marseille,La Piscine,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,47,20
+11H,2006-10-08,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,47,16
+12H,2006-10-08,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,50,21
+13H,2007-04-06,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,39,25
+14H,2007-04-09,Hobbies,Spain,Palamós,Llosa de Palamós,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,30,30
+15H,2007-05-18,Hobbies,Spain,Palamós,Boreas,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,25,26
+16H,2007-05-19,Hobbies,Spain,Palamós,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,25,26
+17H,2007-05-20,Hobbies,Spain,Palamós,Boreas,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,35,33
+18H,2007-07-14,Hobbies,France,Marseille,Anse Marlet,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,49,20
+19H,2007-07-14,Hobbies,France,Marseille,Anse Marlet,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,45,21
+20H,2007-10-17,Hobbies,France,Marseille,Méjean,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,11
+21H,2007-10-24,Hobbies,France,Sète,L'Obéron,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,30,12
+22H,2007-11-14,Hobbies,France,Sète,Le Tas de la Mer,,,Mediterranean sea,Boat,Technical,Open circuit,Air,14,"4,2"
+23H,2008-03-16,Hobbies,Egypt,El Quseir,Le Bestouan,,,Red sea,Seaside,Cave diving,Open circuit,Air,25,"22,1"
+24H,2008-03-15,Hobbies,Egypt,El Quseir,Le rife,,,Red sea,Seaside,Exploration,Open circuit,Air,42,"25,2"
+25H,2008-04-16,Hobbies,Egypt,El Quseir,Le rife,,,Red sea,Seaside,Exploration,Open circuit,Air,45,"31,8"
+26H,2008-04-16,Hobbies,Egypt,El Quseir,Le rife,,,Red sea,Seaside,Exploration,Open circuit,Air,47,"32,1"
+27H,2008-04-16,Hobbies,Egypt,El Quseir,Le rife,,,Red sea,Seaside,Exploration,Open circuit,Air,53,"20,7"
+28H,2008-04-17,Hobbies,Egypt,El Quseir,Safari,,,Red sea,Boat,Exploration,Open circuit,Air,45,"15,3"
+29H,2008-04-18,Hobbies,Egypt,El Quseir,,,,Red sea,Boat,Exploration,Open circuit,Air,57,"20,2"
+30H,2008-04-18,Hobbies,Egypt,El Quseir,,,,Red sea,Boat,Exploration,Open circuit,Air,46,"17,1"
+31H,2008-04-19,Hobbies,Egypt,El Quseir,Erg Monika,,,Red sea,Boat,Exploration,Open circuit,Air,42,"17,1"
+32H,2008-04-19,Hobbies,Egypt,El Quseir,Rife nord,,,Red sea,Seaside,Night diving,Open circuit,Air,46,"19,5"
+33H,2008-07-27,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,"25,8"
+34H,2008-11-10,Hobbies,Turkey,Antalya,,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,30,32
+35H,2008-11-10,Hobbies,Turkey,Antalya,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,24
+36H,2009-02-28,Hobbies,Spain,Llafranc,Les failles,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,32
+37H,2009-02-28,Hobbies,Spain,Llafranc,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,37,30
+38H,2008-03-01,Hobbies,Spain,Llafranc,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,42,27
+39H,2009-05-08,Hobbies,Spain,Rosas,"Le chat, pic supérieur",,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,"26,4"
+40H,2009-05-09,Hobbies,Spain,Rosas,"Le chat, pic inférieur",,,Mediterranean sea,Boat,Exploration,Open circuit,Air,39,25
+41H,2009-05-09,Hobbies,Spain,Rosas,Cap Trencat,,,Mediterranean sea,Boat,Technical,Open circuit,Air,38,"23,2"
+42H,2009-05-10,Hobbies,Spain,Rosas,Poema,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,45,"27,6"
+43H,2009-07-12,Hobbies,France,Marseille,Le Dalton,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,36,"33,6"
+44H,2009-09-20,Hobbies,France,Bonifacio,La tête d'homme,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,37,"38,5"
+45H,2009-09-20,Hobbies,France,Bonifacio,Les cloches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,51,"13,8"
+46H,2009-10-25,Hobbies,France,Marseille,Les impériaux,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,"24,3"
+47H,2009-11-05,Hobbies,France,Sète,Le barrou,,,Thau Lagoon,Seaside,Scientific,Open circuit,Air,50,"3,1"
+48H,2009-11-19,Hobbies,France,Sète,Le barrou,,,Thau Lagoon,Seaside,Scientific,Open circuit,Air,50,"0,3"
+49H,2009-12-13,Hobbies,France,Cassis,,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,61,"14,5"
+50H,2010-04-04,Hobbies,France,Cassis,,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,45,16
+51H,2010-05-01,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,"22,8"
+52H,2010-06-14,Hobbies,France,Sète,Roquerols,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,45,"3,7"
+53H,2010-06-15,Hobbies,France,Sète,Les patates,,,Thau Lagoon,Boat,Exploration,Open circuit,Air,50,13
+54H,2010-06-15,Hobbies,France,Sète,Roquerols,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,48,"3,6"
+55H,2010-06-16,Hobbies,France,Sète,Roquerols,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,55,"3,6"
+56H,2010-06-16,Hobbies,France,Sète,Digue Est,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,36,"10,2"
+57H,2010-06-17,Hobbies,France,Sète,Ponton de la Bordelaise,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,40,"7,2"
+58H,2010-06-17,Hobbies,France,Sète,Les patates,,,Thau Lagoon,Boat,Scientific,Open circuit,Air,"11,9",40
+59H,2010-06-18,Hobbies,France,Sète,L'Obéron,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,56,"12,3"
+60H,2010-06-21,Hobbies,France,Marseille,Île du Frioul,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,34,21
+61H,2010-06-22,Hobbies,France,Marseille,Caramassaigne,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,33,"27,3"
+62H,2010-06-22,Hobbies,France,Marseille,Tunnel de l'île Plane,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,24,"15,3"
+63H,2010-06-23,Hobbies,France,Marseille,Île du Planier,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,36,"39,8"
+64H,2010-06-23,Hobbies,France,Marseille,Île du Planier,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,33,18
+65H,2010-06-24,Hobbies,France,Marseille,Îlot de Tiboulen du Frioul,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,53,"38,2"
+66H,2010-06-24,Hobbies,France,Marseille,Le dôme de la pierre à corb,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,35,"16,8"
+67H,2010-06-25,Hobbies,France,Marseille,Les moyades,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,45,"24,5"
+68H,2010-09-18,Hobbies,Spain,Llafranc,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,"24,7"
+69H,2010-09-18,Hobbies,Spain,Llafranc,Ullastre II,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,39,"25,6"
+70H,2010-09-19,Hobbies,Spain,Llafranc,Ullastre III,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,47,"33,1"
+71H,2011-01-30,Hobbies,France,Marseille,Les moyades,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,23,20
+72H,2011-02-20,Hobbies,France,Marseille,Les Impériaux,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,44,"25,3"
+73H,2011-04-20,Hobbies,France,Sète,Tables ostréicoles,,,Thau Lagoon,Boat,Exploration,Open circuit,Air,44,"4,5"
+75H,2011-04-24,Hobbies,France,Marseille,Le Chaouen,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,54,20
+77H,2011-05-08,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,53,20
+78H,2011-05-22,Hobbies,France,Carro,Le Siphon,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,62,13
+79H,2011-06-19,Hobbies,France,Marseille,Cap Caveaux,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,57,20
+80H,2011-07-10,Hobbies,France,Marseille,Caramassaigne,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,58,"16,6"
+81H,2011-08-14,Hobbies,France,Marseille,Le Liban,,,Mediterranean sea,Boat,Wreck,Open circuit,Air,44,"35,4"
+82H,2011-08-28,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,56,20
+83H,2011-11-06,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,41,"38,5"
+84H,2011-12-11,Hobbies,France,Cassis,Les pierres plates,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,64,"19,9"
+85H,2012-03-11,Hobbies,France,Cassis,La Grande Faille,,,Mediterranean sea,Seaside,Cave diving,Open circuit,Air,33,20
+86H,2012-03-18,Hobbies,France,Marseille,Le petit Congloué,,,Mediterranean sea,Boat,Technical,Open circuit,Air,45,34
+87H,2012-04-15,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,"36,8"
+88H,2012-05-12,Hobbies,Spain,L'Estartit,Punta salina,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,63,25
+89H,2012-05-12,Hobbies,Spain,L'Estartit,Cavall Bernat,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,57,26
+90H,2012-01-13,Hobbies,Spain,L'Estartit,La Vaca,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,54,22
+91H,2012-06-15,Hobbies,Indonesia,Tumbak,,,,Moluccan sea,Boat,Exploration,Open circuit,Air,33,"40,5"
+92H,2012-06-15,Hobbies,Indonesia,Tumbak,,,,Moluccan sea,Boat,Exploration,Open circuit,Air,45,"23,6"
+93H,2012-06-17,Hobbies,Indonesia,Tumbak,,,,Moluccan sea,Boat,Exploration,Open circuit,Air,36,"21,4"
+94H,2012-06-17,Hobbies,Indonesia,Tumbak,,,,Moluccan sea,Boat,Exploration,Open circuit,Air,43,"24,8"
+95H,2012-07-27,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,54,"26,2"
+96H,2012-07-27,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,70,"20,9"
+97H,2012-07-27,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,60,"28,6"
+98H,2012-07-28,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,55,"34,1"
+99H,2012-07-28,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,74,"37,4"
+100H,2012-08-25,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,61,"27,8"
+101H,2012-08-25,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,72,"26,1"
+102H,2012-08-26,Hobbies,Indonesia,Bunaken,,,,Celebe sea,Boat,Exploration,Open circuit,Air,52,"27,5"
+103H,2013-04-07,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,40
+104H,2013-05-19,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,36,43
+105H,2013-06-16,Hobbies,France,Marseille,Les Impériaux,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,40
+106H,2013-08-04,Hobbies,France,Marseille,Les Impériaux,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,"42,3"
+107H,2013-08-04,Hobbies,France,Marseille,Les Pharillons,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,20
+108H,2014-03-08,Hobbies,France,Marseille,La Boulegeade,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,52,28
+109H,2014-04-04,Hobbies,France,Sausset-les-Pins,Jardin de Sausset,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,43,"8,3"
+110H,2014-04-08,Hobbies,France,Sausset-les-Pins,Jardin de Sausset,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,36,"13,5"
+111H,2014-06-07,Hobbies,Spain,Cala Montjoi,Le chat,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,38,"33,7"
+112H,2014-06-07,Hobbies,Spain,Cala Montjoi,Grotte du pélerin,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,51,"27,9"
+113H,2014-06-08,Hobbies,Spain,Cala Montjoi,Cap Trecat,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,"28,5"
+114H,2014-06-08,Hobbies,Spain,Cala Montjoi,Bisbe,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,45,29
+115H,2014-06-09,Hobbies,Spain,Cala Montjoi,Pointe à mérou,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,38,"24,8"
+116H,2014-09-26,Hobbies,France,Brest,Le Dellec,,,Iroise sea,Boat,Exploration,Open circuit,Air,42,"11,3"
+117H,2014-10-03,Hobbies,France,Brest,Le duc d'Albe,,,Iroise sea,Boat,Exploration,Open circuit,Air,41,"18,4"
+118H,2014-10-10,Hobbies,France,Brest,,,,Iroise sea,Boat,Exploration,Open circuit,Air,39,"12,1"
+119H,2014-10-17,Hobbies,France,Brest,Île Ronde,,,Iroise sea,Boat,Exploration,Open circuit,Air,33,"15,8"
+120H,2014-10-25,Hobbies,France,Brest,Île Ronde,,,Iroise sea,Boat,Exploration,Open circuit,Air,46,"12,1"
+121H,2014-11-14,Hobbies,France,Brest,Île Ronde,,,Iroise sea,Boat,Exploration,Open circuit,Air,44,"13,8"
+122H,2014-11-21,Hobbies,France,Brest,Le duc d'Albe,,,Iroise sea,Boat,Exploration,Open circuit,Air,38,"21,3"
+123H,2014-11-28,Hobbies,France,Brest,Le duc d'Albe,,,Iroise sea,Boat,Exploration,Open circuit,Air,26,17
+124H,2014-11-28,Hobbies,France,Brest,Île Ronde,,,Iroise sea,Boat,Exploration,Open circuit,Air,31,"5,9"
+125H,2015-04-26,Hobbies,Guadeloupe,Malendure,Le jardin de corail,,,Caribbean sea,Boat,Exploration,Open circuit,Air,60,"20,2"
+126H,2015-05-02,Hobbies,Guadeloupe,Malendure,La Caye,,,Caribbean sea,Boat,Exploration,Open circuit,Air,64,"12,7"
+127H,2015-06-07,Hobbies,Guadeloupe,Malendure,La Pointe aux Carangues,,,Caribbean sea,Boat,Exploration,Open circuit,Air,60,40
+128H,2015-10-09,Hobbies,France,Brest,Île Ronde,,,Iroise sea,Boat,Exploration,Open circuit,Air,22,6
+129H,2015-10-15,Hobbies,France,Brest,Le duc d'Albe,,,Iroise sea,Boat,Exploration,Open circuit,Air,36,"16,9"
+130H,2015-10-16,Hobbies,France,Brest,Le tombant neuf,,,Iroise sea,Boat,Exploration,Open circuit,Air,41,"28,9"
+131H,2015-11-26,Hobbies,France,Brest,La pointe Robert,,,Iroise sea,Boat,Exploration,Open circuit,Air,42,11
+132H,2015-11-27,Hobbies,France,Brest,La Cormorandière,,,Iroise sea,Boat,Exploration,Open circuit,Air,46,"19,6"
+133H,2016-04-30,Hobbies,France,Carnon,,,,Mediterranean sea,Boat,Technical,Open circuit,Nitrox,38,17
+134H,2016-04-30,Hobbies,France,Carnon,La Citerne,,,Mediterranean sea,Boat,Technical,Open circuit,Nitrox,40,12
+135H,2016-05-16,Hobbies,France,Carnon,Pierre Jacques,,,Mediterranean sea,Boat,Technical,Open circuit,Nitrox,54,"21,2"
+136H,2016-05-24,Hobbies,France,Carnon,Le roc,,,Mediterranean sea,Boat,Night diving,Open circuit,Air,53,"10,5"
+137H,2016-06-13,Hobbies,France,Villefranche-sur-Mer,Saint-Jean-Cap-Ferrat,,,Mediterranean sea,Boat,Experience,Closed circuit rebreather,Nitrox,45,15
+138H,2016-07-15,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Night diving,Open circuit,Air,61,"6,6"
+139H,2016-07-17,Hobbies,France,Carnon,Le Suédois,,,Mediterranean sea,Boat,Wreck,Open circuit,Nitrox,52,36
+140H,2016-07-17,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,18,"5,6"
+141H,2016-07-17,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,13,"5,6"
+142H,2016-07-17,Hobbies,France,Carnon,La Citerne,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,39,"12,2"
+143H,2016-08-04,Hobbies,France,Carnon,La Citerne,,,Mediterranean sea,Boat,Night diving,Open circuit,Air,45,12
+144H,2016-08-08,Hobbies,France,Carnon,Le surf,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,56,"13,6"
+145H,2016-08-19,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,62,"6,7"
+146H,2016-09-20,Hobbies,Corsica,Calvi,La Revellata,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,51,32
+147H,2016-10-03,Hobbies,France,Marseille,Cap Caveaux,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,52,"26,8"
+148H,2016-10-03,Hobbies,France,Marseille,Cap Caveaux,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,52,"20,3"
+149H,2016-10-04,Hobbies,France,Marseille,Les Moyades,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,58,"17,9"
+150H,2016-10-04,Hobbies,France,Marseille,Les Moyades,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,40,24
+151H,2016-10-05,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,73,"42,9"
+152H,2016-10-05,Hobbies,France,Marseille,Calanque de Pouars,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,44,"32,7"
+153H,2016-10-06,Hobbies,France,Marseille,Caramassaigne,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,92,"51,4"
+154H,2016-10-07,Hobbies,France,Marseille,La  Drôme,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Trimix 20/20,45,"51,1"
+155H,2017-02-03,Hobbies,Monaco,Monaco,Port Hercule,,,Mediterranean sea,Seaside,Exploration,Open circuit,Air,36,"35,1"
+156H,2017-05-21,Hobbies,Monaco,Monaco,Port de Fontvieille,,,Mediterranean sea,Seaside,Exploration,Closed circuit rebreather,Nitrox,97,"19,2"
+157H,2017-05-30,Hobbies,France,Marseille,Cassidaigne,,,Mediterranean sea,Boat,Technical,Closed circuit rebreather,Nitrox,60,30
+158H,2017-08-12,Hobbies,France,Larmor-Plage,Talik beach,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,51,"12,1"
+159H,2017-08-13,Hobbies,France,Larmor-Plage,U-171,,,Atlantic,Boat,Wreck,Closed circuit rebreather,Nitrox,34,"39,2"
+160H,2017-08-13,Hobbies,France,Larmor-Plage,Le barrage ,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,51,"10,3"
+161H,2017-09-03,Hobbies,France,Larmor-Plage,L'épave au canon,,,Atlantic,Boat,Wreck,Closed circuit rebreather,Nitrox,41,"29,7"
+162H,2017-09-03,Hobbies,France,Larmor-Plage,Les pyramides,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,52,20
+163H,2017-09-16,Hobbies,France,Larmor-Plage,Talik beach,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,51,"12,5"
+164H,2017-09-16,Hobbies,France,Larmor-Plage,Le Cyrano,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,41,"15,8"
+165H,2017-09-17,Hobbies,France,Larmor-Plage,M-10,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,35,"28,9"
+166H,2017-09-17,Hobbies,France,Larmor-Plage,Le vivier,,,Atlantic,Boat,Exploration,Closed circuit rebreather,Nitrox,45,17
+167H,2018-02-25,Hobbies,France,Pointe de Brezellec,,,,Iroise sea,Seaside,Exploration,Closed circuit rebreather,Nitrox,71,27
+168H,2018-04-24,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,41,"17,7"
+169H,2018-04-24,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,38,12
+170H,2018-04-25,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,43,"17,5"
+171H,2018-04-25,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,25,"18,4"
+172H,2018-04-26,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,26,"27,8"
+173H,2018-04-26,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,16,"27,3"
+174H,2018-04-26,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,35,17
+175H,2018-04-26,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,10,"16,7"
+176H,2018-04-28,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,5,"21,5"
+177H,2018-04-28,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,15,"24,1"
+178H,2018-04-28,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,16,23
+179H,2018-04-28,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,36,"20,5"
+180H,2018-04-29,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,37,"19,2"
+181H,2018-05-01,Hobbies,France,Îles de Glénan,Le Pietro,,,Atlantic,Boat,Technical,Open circuit,Air,11,"27,7"
+182H,2018-05-01,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,21,"26,6"
+183H,2018-05-01,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,26,"16,6"
+184H,2018-05-02,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,27,"15,1"
+185H,2018-05-03,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,44,"38,1"
+186H,2018-05-03,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,29,"12,1"
+187H,2018-05-04,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,14,"26,6"
+188H,2018-05-04,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,26,26
+189H,2018-05-04,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,34,"14,5"
+190H,2018-05-05,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,29,"23,7"
+191H,2018-05-06,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,12,"6,8"
+192H,2018-05-06,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,28,20
+193H,2018-05-05,Hobbies,France,Îles de Glénan,,,,Atlantic,Boat,Technical,Open circuit,Air,23,"36,3"
+194H,2018-06-27,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,17,"40,7"
+195H,2018-06-27,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,34,"20,5"
+196H,2018-06-28,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,10,"40,3"
+197H,2018-06-29,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,8,"40,9"
+198H,2018-06-29,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,7,"25,3"
+199H,2018-06-30,Hobbies,France,Trébeurden,,,,Atlantic,Boat,Technical,Open circuit,Air,18,"18,4"
+200H,2020-02-02,Hobbies,France,Marseille,Les Moyades,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,55,46
+201H,2020-03-01,Hobbies,France,Marseille,La grotte à Péres,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,47,"42,2"
+202H,2020-06-14,Hobbies,France,Marseille,Les Fromages,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,"19,6"
+203H,2020-06-14,Hobbies,France,Marseille,La Poire,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,25
+204H,2021-03-27,Hobbies,France,La Ciotat,La Pilotine,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,28,42
+205H,2021-04-03,Hobbies,France,Marseille,Le Canyon,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,53,"34,3"
+206H,2021-05-14,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,58,7
+207H,2021-05-14,Hobbies,France,Carnon,Les trois arches,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,25,7
+208H,2021-06-04,Hobbies,France,Carnon,La Réserve,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,58,"12,8"
+209H,2021-06-04,Hobbies,France,Carnon,La Réserve,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,"13,3"
+210H,2021-06-05,Hobbies,France,Marseille,Frapaou,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,39,"42,7"
+211H,2021-06-20,Hobbies,France,Marseille,Le Petit Salaman,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,46,"38,5"
+212H,2021-07-04,Hobbies,France,Marseille,L'Elvine,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,37
+213H,2021-07-04,Hobbies,France,Marseille,La pierre du Figuier,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,39
+214H,2021-07-18,Hobbies,France,Marseille,Pierre à Joseph,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,40,46
+215H,2021-07-18,Hobbies,France,Marseille,L'Elvine,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,50,38
+216H,2021-08-08,Hobbies,France,Marseille,Frapaou,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,43
+217H,2021-08-15,Hobbies,France,Marseille,L'Elvine,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,45,41
+218H,2021-08-15,Hobbies,France,Marseille,L'arche du Moulon,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,44,37
+219H,2021-08-29,Hobbies,France,Marseille,Frapaou,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,43,43
+220H,2021-09-26,Hobbies,France,Marseille,Le Petit Salaman,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,48,"38,4"
+221H,2021-10-01,Hobbies,France,Mandelieu-la-Napoule,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,57,"7,8"
+222H,2021-10-01,Hobbies,France,Mandelieu-la-Napoule,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,49,"19,9"
+223H,2022-05-21,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,41,"31,7"
+224H,2022-05-21,Hobbies,France,Marseille,Frapaou,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,41,"36,5"
+225H,2022-06-19,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,63,13
+226H,2022-07-13,Hobbies,France,Marseille,,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,42,"19,2"
+227H,2022-10-09,Hobbies,France,Marseille,Tiboulen de maïre,,,Mediterranean sea,Boat,Exploration,Open circuit,Air,49,37
+1P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,15,"17,2"
+2P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,14,"18,2"
+3P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,18,18
+4P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,12,"17,7"
+5P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,15,"15,9"
+6P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,25,"16,1"
+7P,2016-03-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,14,"15,8"
+8P,2016-03-09,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,44,"15,2"
+9P,2016-03-09,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,21,"36,5"
+10P,2016-06-01,Professional,France,Cassis,Calanque de Port Miou,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,42,"16,2"
+11P,2016-06-07,Professional,France,Saint-Tropez,Pampelonne,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,58,15
+12P,2016-06-08,Professional,France,Cannes,Pointe de la canne,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,90,"16,8"
+13P,2016-06-10,Professional,France,Théoule-sur-Mer,Plage du Suveret,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,43,"13,1"
+14P,2016-06-10,Professional,France,Théoule-sur-Mer,Plage du Suveret,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,35,"5,7"
+15P,2016-06-11,Professional,France,Marseille,Cap Gros,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,68,"15,7"
+16P,2016-06-23,Professional,France,Marseille,La Digue,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,56,"21,4"
+17P,2016-06-24,Professional,France,Fos-sur-Mer,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,41,"13,9"
+18P,2016-07-04,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,53,"18,5"
+19P,2016-07-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,57,"34,1"
+20P,2016-09-08,Professional,Corsica,Ajaccio,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,"1,5"
+21P,2016-09-13,Professional,Corsica,Cargèse,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,2
+22P,2016-09-13,Professional,Corsica,Calvi,Stareso,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,3
+23P,2016-09-24,Professional,Corsica,Sant Ambroggio,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,2
+24P,2016-09-24,Professional,Corsica,Bastia,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,30,2
+25P,2016-09-29,Professional,Corsica,Bastia,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,2
+26P,2016-11-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,81,"12,5"
+27P,2016-11-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,92,"12,5"
+28P,2016-11-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,72,"11,3"
+29P,2016-11-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,75,"11,3"
+30P,2016-11-04,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,84,"11,6"
+31P,2016-11-04,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,87,14
+32P,2016-11-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,85,"17,1"
+33P,2016-11-07,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,79,"16,2"
+34P,2016-11-07,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,84,"17,4"
+35P,2016-11-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,84,"16,5"
+36P,2016-11-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,64,"18,6"
+37P,2016-11-09,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,56,"20,7"
+38P,2016-11-09,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,77,"18,6"
+39P,2016-11-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,92,"17,4"
+40P,2016-11-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,76,"17,1"
+41P,2016-11-11,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,69,14
+42P,2016-11-11,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,52,"21,6"
+43P,2016-11-12,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,95,"15,2"
+44P,2016-11-12,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,82,"21,6"
+45P,2016-11-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,75,"17,4"
+46P,2016-11-15,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,84,"13,4"
+47P,2016-11-15,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,82,"14,9"
+48P,2016-11-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,81,"13,4"
+49P,2016-11-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,85,"15,2"
+50P,2016-11-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,89,"13,4"
+51P,2016-11-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,57,18
+52P,2016-11-18,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,89,"13,4"
+53P,2016-11-18,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,85,"17,7"
+54P,2016-11-25,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,75,"13,4"
+55P,2016-11-26,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,91,"10,7"
+56P,2016-11-26,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,81,11
+57P,2016-11-28,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,96,"13,4"
+58P,2016-11-28,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,81,"13,4"
+59P,2016-11-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,92,"12,5"
+60P,2016-11-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,67,"13,7"
+61P,2016-12-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,94,"11,6"
+62P,2016-12-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,91,11
+63P,2016-12-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,80,"11,9"
+64P,2016-12-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,94,11
+65P,2016-12-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,94,"13,4"
+66P,2016-12-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,88,"16,5"
+67P,2016-12-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,92,"13,1"
+68P,2016-12-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,97,"13,7"
+69P,2016-12-06,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,94,"19,8"
+70P,2016-12-06,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,66,"16,8"
+71P,2016-12-07,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,94,"16,5"
+72P,2016-12-07,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,60,18
+73P,2016-12-07,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,11,"15,8"
+74P,2016-12-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,65,"26,2"
+75P,2016-12-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,55,"18,9"
+76P,2017-01-31,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,54,"15,5"
+77P,2017-01-31,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,29,"15,2"
+78P,2017-02-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,58,"14,6"
+79P,2017-02-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,59,"17,4"
+80P,2017-02-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,50,"15,8"
+81P,2017-02-15,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,57,"17,1"
+82P,2017-02-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,61,"15,5"
+83P,2017-02-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,51,"16,5"
+84P,2017-02-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,48,"17,4"
+85P,2017-03-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,31,"17,6"
+86P,2017-03-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,8,"14,4"
+87P,2017-03-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,11,"5,8"
+88P,2017-03-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,47,"10,8"
+89P,2017-03-29,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,"19,2"
+90P,2017-03-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,42,"14,2"
+91P,2017-03-31,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,27,"15,9"
+92P,2017-04-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,42,"18,5"
+93P,2017-04-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,28,"25,7"
+94P,2017-04-01,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,30,"21,6"
+95P,2017-04-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,49,14
+96P,2017-04-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,58,"14,9"
+97P,2017-04-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,48,"15,8"
+98P,2017-04-08,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,35,"23,3"
+99P,2017-04-09,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,16,"21,3"
+100P,2017-04-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,2,"2,1"
+101P,2017-04-11,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,4,14
+102P,2017-04-11,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,18,"18,9"
+103P,2017-04-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,49,"16,5"
+104P,2017-04-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,31,"15,8"
+105P,2017-04-19,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,68,"20,1"
+106P,2017-04-19,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,69,"18,9"
+107P,2017-04-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,31,"21,6"
+108P,2017-04-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,30,14
+109P,2017-04-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,33,21
+110P,2017-04-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,30,"21,3"
+111P,2017-04-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,15,14
+112P,2017-04-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,39,"20,7"
+113P,2017-04-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,4,"26,2"
+114P,2017-04-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,5,"26,2"
+115P,2017-04-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,5,"26,2"
+116P,2017-04-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,5,"26,2"
+117P,2017-04-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,9,"26,2"
+118P,2017-04-24,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,14
+119P,2017-04-25,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,37,"4,3"
+120P,2017-04-25,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,13,14
+121P,2017-04-25,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,19,"19,5"
+122P,2017-04-25,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,43,"19,5"
+123P,2017-04-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,37,"25,3"
+124P,2017-04-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,3,"17,7"
+125P,2017-04-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,10,"16,2"
+126P,2017-04-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,26,"23,2"
+127P,2017-04-27,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,18,"19,2"
+128P,2017-04-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,44,"19,2"
+129P,2017-04-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,"19,8"
+130P,2017-04-30,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,31,"21,9"
+131P,2017-05-02,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,47,"20,1"
+132P,2017-05-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,23,"21,3"
+133P,2017-05-03,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,10,"17,4"
+134P,2017-05-04,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,29,"14,3"
+135P,2017-05-05,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,11,21
+136P,2017-05-10,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,45,"18,6"
+137P,2017-05-13,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,67,"18,3"
+138P,2017-05-13,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,46,14
+139P,2017-05-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,50,"17,7"
+140P,2017-05-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,27,"17,1"
+141P,2017-05-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,30,"14,9"
+142P,2017-05-14,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,26,"13,7"
+143P,2017-05-15,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,12,"17,1"
+144P,2017-05-15,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,37,"16,8"
+145P,2017-05-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,66,"20,1"
+146P,2017-05-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,21,"18,9"
+147P,2017-05-16,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,29,"18,9"
+148P,2017-05-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,8,"19,2"
+149P,2017-05-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,20,"24,7"
+150P,2017-05-17,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,37,"35,1"
+151P,2017-05-18,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,28,"19,8"
+152P,2017-05-18,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,11,"25,6"
+153P,2017-05-18,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,57,"19,8"
+154P,2017-05-19,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,139,"18,3"
+155P,2017-05-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,52,"13,7"
+156P,2017-05-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,39,"13,7"
+157P,2017-05-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,67,"20,1"
+158P,2017-05-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,57,"19,8"
+159P,2017-05-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,36,"20,1"
+160P,2017-05-23,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,50,"20,1"
+161P,2017-05-23,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,60,"14,6"
+162P,2017-05-24,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,67,"14,6"
+163P,2017-06-19,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,83,14
+164P,2017-06-19,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,43,"26,5"
+165P,2017-06-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,81,"19,8"
+166P,2017-06-20,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,22,"19,8"
+167P,2017-06-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,54,"18,3"
+168P,2017-06-21,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,27,"23,2"
+169P,2017-06-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,35,"13,4"
+170P,2017-06-22,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,86,"13,7"
+171P,2017-06-23,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,58,"23,5"
+172P,2017-06-23,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,22,"25,6"
+173P,2017-06-23,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,6,"15,5"
+174P,2017-06-24,Professional,Monaco,Monaco,L'Anse du Portier,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,66,"20,4"
+175P,2017-06-27,Professional,France,Canet-en-Roussillon,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,44,"5,5"
+176P,2017-06-27,Professional,France,Canet-en-Roussillon,,,,Mediterranean sea,Boat,Scientific,Open circuit,Air,52,"4,6"
+177P,2018-07-14,Professional,French polynesia,Moorea,SOCMOO1,-19.5791667,-149.9022222222222,Pacific,Boat,Technical,Closed circuit rebreather,Nitrox,73,16
+178P,2018-07-14,Professional,French polynesia,Moorea,SOCMOOC5,-17.6055556,-149.89666666666665,Pacific,Boat,Technical,Closed circuit rebreather,Nitrox,66,45
+179P,2018-07-16,Professional,French polynesia,Huahine,SOCHUA3,-17.0358333,-151.19555555555556,Pacific,Boat,Technical,Closed circuit rebreather,Nitrox,39,20
+180P,2018-07-17,Professional,French polynesia,Huahine,SOCHUA3,-17.0358333,-151.19555555555556,Pacific,Boat,Technical,Closed circuit rebreather,Nitrox,33,13
+181P,2018-07-18,Professional,French polynesia,Huahine,SOCHUA3,-16.8333333,-151.30805555555554,Pacific,Boat,Technical,Closed circuit rebreather,Nitrox,34,43
+182P,2018-07-19,Professional,French polynesia,Huahine,SOCHUA7,,,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 10/51,64,66
+183P,2018-07-20,Professional,French polynesia,Huahine,SOCHUA8,-16.7227778,-151.04444444444445,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 10/51,46,52
+184P,2018-07-21,Professional,French polynesia,Huahine,SOCHUA7,-16.7677778,-151.05666666666667,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 10/56,68,67
+185P,2018-07-23,Professional,French polynesia,Raiatea,SOCRAI1,-16.7597222,-151.57305555555556,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 17/21,43,22
+186P,2018-07-23,Professional,French polynesia,Raiatea,SOCRAI1,-16.7580556,-151.57166666666666,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 17/21,46,26
+187P,2018-07-24,Professional,French polynesia,Raiatea,SOCRAI1,-16.7602778,-151.5075,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 21/03,46,24
+188P,2018-07-25,Professional,French polynesia,Raiatea,SOCRAI2,-16.7697222,-151.60805555555555,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 11/45,54,63
+189P,2018-07-26,Professional,French polynesia,Raiatea,SOCRAI2,-16.9986111,-151.60972222222222,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 11/49,62,90
+190P,2018-07-27,Professional,French polynesia,Raiatea,,-16.75,-151.62833333333333,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 08/60,94,100
+191P,2018-08-05,Professional,French polynesia,Moorea,SOCMOO1,-17.6441667,-149.89777777777778,Pacific,Boat,Technical,Closed circuit rebreather,Trimix 19/13,43,16
+192P,2018-08-15,Professional,French polynesia,Moorea,,,,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 11/53,127,87
+193P,2018-08-18,Professional,French polynesia,Moorea,,,,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 10/54,97,93
+194P,2018-08-22,Professional,French polynesia,Moorea,,-17.6388889,-149.86805555555554,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 10/51,122,90
+195P,2018-08-26,Professional,French polynesia,Moorea,SOCMOO1,-17.6119444,-150.0125,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 11/50,127,90
+196P,2018-09-02,Professional,French polynesia,Moorea,,-17.5841667,-149.79000000000002,Pacific,Boat,Scientific,Closed circuit rebreather,Nitrox,64,33
+197P,2018-09-04,Professional,French polynesia,Moorea,,-17.5838889,-149.79000000000002,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 10/51,92,91
+198P,2018-09-05,Professional,French polynesia,Moorea,,-17.5741667,-149.7877777777778,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 09/60,144,93
+199P,2018-09-07,Professional,French polynesia,Moorea,SOCMOO2,-17.5741667,-149.7877777777778,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/61,144,65
+200P,2018-09-09,Professional,French polynesia,Moorea,,-17.6383333,-149.86305555555555,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,183,94
+201P,2018-09-14,Professional,French polynesia,Bora-Bora,SOCBOR1,-17.9177778,-151.8975,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 07/62,144,91
+202P,2018-09-15,Professional,French polynesia,Bora-Bora,SOCBOR1,-16.6127778,-151.8936111111111,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,176,91
+203P,2018-09-16,Professional,French polynesia,Bora-Bora,SOCBOR1,-16.6086111,-151.8827777777778,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,178,94
+204P,2018-09-20,Professional,French polynesia,Bora-Bora,SOCBOR2,-16.4772222,-151.8175,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,162,102
+205P,2018-09-21,Professional,French polynesia,Bora-Bora,SOCBOR2,-16.4772222,-151.8175,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,181,114
+206P,2018-09-22,Professional,French polynesia,Bora-Bora,SOCBOR2,-16.4772222,-151.8175,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,96,69
+207P,2018-09-26,Professional,French polynesia,Bora-Bora,SOCBOR2,-16.4772222,-151.8175,Pacific,Boat,Scientific,Closed circuit rebreather,Trimix 08/62,89,64
+208P,2019-06-02,Professional,France,Hyères,Île du Grand Ribaud,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,69,48
+209P,2019-06-03,Professional,France,Hyères,Cap d'Arme,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,81,57
+210P,2019-06-03,Professional,France,Cavalaire-sur-Mer,Pointe du Castellas,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,75,47
+211P,2019-06-04,Professional,France,Cavalaire-sur-Mer,Épave,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,47,"27,1"
+212P,2019-06-04,Professional,France,Cavalaire-sur-Mer,Les Ancres,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,20,36
+213P,2019-06-04,Professional,France,Cavalaire-sur-Mer,,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,20,16
+214P,2019-06-05,Professional,France,Cavalaire-sur-Mer,,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 10/51,70,"25,2"
+215P,2019-06-05,Professional,France,Saint-Tropez,Pampelonne,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,80,56
+216P,2019-06-06,Professional,France,Saint-Tropez,Émissaire 2,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,47,30
+217P,2019-06-06,Professional,France,Saint-Tropez,Émissaire 1,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/52,26,24
+218P,2019-06-07,Professional,France,Fréjus,,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,49,38
+219P,2019-06-07,Professional,France,Fréjus,Le Banc des Vieilles,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,77,68
+220P,2019-06-08,Professional,France,Fréjus,Esterel,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,97,71
+221P,2019-06-08,Professional,France,Golfe-Juan,La pointe du dragon,,,Mediterranean sea,Boat,Scientific,Closed circuit rebreather,Trimix 11/51,85,75
