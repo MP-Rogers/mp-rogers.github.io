@@ -1,12 +1,10 @@
 ---
 title: "Trip to Bowden"
 author: "MP Rogers"
-date: 2023-02-20
+date: Feb 20, 2023
 image: Sunrise.jpeg
 categories:
 - Marine Biology
-- Kee Farms
-- Seaweed
 ---
 
 So about a week ago, on February 11, 2023, I went on a dive trip with my team at Kee Farms. Here is a little bit of that story.
