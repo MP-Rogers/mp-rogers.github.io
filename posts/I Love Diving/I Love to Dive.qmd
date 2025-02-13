@@ -4,7 +4,6 @@ author: "MP Rogers"
 date: 04/30/2024
 image: "PRCM9722.jpg"
 categories:
-- Diving
 - Marine Biology
 - Personal
 ---
