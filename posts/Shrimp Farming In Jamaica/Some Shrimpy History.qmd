@@ -1,0 +1,97 @@
+---
+title: "Shimp Farming in Jamaica"
+author: "MP Rogers"
+date: Feb 20, 2025
+categories: 
+- Marine Biology
+image: "images.jpg"
+---
+
+## Inspiration
+
+Recently, I've had a couple conversations about different forms of aquaculture in the Caribbean. Aquaculture is just aquatic farming, cultivating fresh or saltwater plants and animals the same way we do for land plants. I recently helped host a webinar for the Youth in Caribbean Aquaculture on farming ornamental fish.
+
+During that webinar, a student asked if, in light of being small island with only so much usable space, it even made sense to attempt aquaculture. They were shocked to find out that Jamaica had an ornamental fish industry in the past.
+
+I get it. Even as a marine biology student myself, I was unaware of a lot of what had already been done in Jamaica. There is a gap somewhere between documenting what has been done and actually disseminating it. It's something I'm becoming increasingly aware of, stay tuned for a post on that soon.
+
+## Diving into the Shrimp
+
+But that inspired me to do a little research. A colleague and I had been talking about shrimp recently, but after that, I went looking for what i could find for the history of shrimp farming in Jamaica.
+
+## Context
+
+I figured it was probably best to get some context. I'll admit I dont eat shrimp, or know much about shrimp aquaculture. At this point, I mostly know about seaweed aquaculture, with a touch of oyster and tilapia for some variety. That said, I checked out my handy textbook and got myself some context.
+
+Shrimp farming is a relatively new form of aquaculture. It really kicked off in the 1930's when a graduate student managed to spawn shrimp and grow them out to commercial size. After this, now that shrimp could be produced and bred, shrimp aquaculture could start in earnest. This is really new compared to some forms of fish farming which have been practiced for **several** hundred years.
+
+The book let me know an idea of the conditions shrimp need, what they be able to eat and the kind of shrimp's cultivated around the world at the time of writing.
+
+![P vanmei, the type of shrimp most likely farmed in Jamaica](clipboard-2920607759.png){fig-align="center"}
+
+## History Lesson
+
+A (very light) deep dive has revealed that Jamaica has actually had marine shrimp farms in the past. From what I can tell, there are at least 3 operations that existed in the past, all of which have since closed down. There was "Jamaica Aquaculture Products Ltd" and "Trans-Global Aquaculture ltd."
+
+## Who were they?
+
+From what I've been able to piece together.
+
+Trans-Global Aquaculture Ltd was owned and established by an american parent company of a similar name. The company targeted markets in the US and Europe. They sought to bring production closer to home than their previous Asian sources.
+
+To do this, they bought 1800 acres of land in Clarendon, Jamaica. Shrimp farming uses a mix of fresh and saltwater, and so it was strategically located where the Rio Minho met the sea.
+
+Caribbean Aquaculture Products ltd(CAPL) had different origins. Instead of a foreign investor, it was a project between the University of the West Indies, a research institution (and my alma matter), and the Jamaica Rural Development Fund. They originally formed "Caribbean Mariculture Products Ltd." They were located in Old Harbour, Jamaica. In 2007, their 120 acres of ponds were leased as \$6 million was injected. The restructured entity was renamed "Caribbean Aquaculture Products Ltd."
+
+## How did they do?
+
+At their peaks, Trans-Global and Caribbean Aquaculture products employed over 200 and 85 Jamaicans respectively.
+
+Caribbean Aquaculture Products managed to make a profit in their first year \$4M of profit. They sold to regional distributors, Rainforest Seafood, who bought roughly 30% of their produce. They sold to Trans-Global to help make up export volumes, and sold to hoteliers and restaurants.
+
+## Why did they leave?
+
+There was some overlap in the stated reasons for leaving. A couple points stood out:
+
+1.  Water Quality problems
+2.  Change in duty and tax regime
+3.  High utility costs
+4.  Praedial Larceny
+
+### Water Quality
+
+Trans-Global states this to be one of their major problems. their location was strategically located on the coast, where the Rio Minho met the sea. this gave them access to fresh and seawater as needed. However, it left them vulnerable to the actions of those upstream,
+
+Dunder, a byproduct of sugar cane farming and rum distillery was dumped upstream into the water. At times, when the water level was high, this was less of a problem. But when the dry season came and there was no longer enough water to dilute it, the shrimp died as a result.
+
+As one article states, what started off as a strategic location became a problem in and of itself due to events upstream.
+
+### Duty and Tax Regime
+
+The duty and tax regime also appears to have played a role in the liquidation of the businesses. While it is unclear, there appears to have been a change in duty and taxes on shrimp feed, one of the major imported inputs. The structure of the arrangement was such that each imported container of feed had to be processed separately, with all the red tape and lost time that entailed.
+
+The company tried to appeal for a waiver, or that they be allowed to pay and import in large chunks, but they were denied. Instead feed that had been paid for remained delayed for processing. This, coupled with the fact they paid tax on inputs while their competitors final products entered duty free meant even with millions of dollars of revenue, the company was hamstrung and could not compete.
+
+### Utilities
+
+In both cases the shrimp were grown in ponds by the coast. Now, tidal ponds are common in other places where shrimp are grown. The rising and falling of the tides flushes waste out of the pond and brings in fresh water. The problem with Jamaica is our tides only rise a few centimetres. Not enough to flush the ponds.
+
+The businesses had to compensate by pumping water themselves. This is energy expensive. Its also far from the only thing they required lots of energy for. Ponds were likely aerated, and even if not, both had integrated processing plants, with all the necessary cooling, lights, etc etc.
+
+Jamaica had and still does have some of the most expensive power in the region. Caribbean aquaculture products ltd also states that they had to deal with demand based pricing from the local power company, wherein even if the farm was effectively idle, they were still required to pay.
+
+### Larceny
+
+Finally, unfortunately and predictably, larceny was a factor for both companies. One reported changing security companies several times and catching no perpetrators. Another reported thieves coming by sea and stealing 4000lbs of shrimp in a night. Eventually, the losses were frustrating enough that the lead investor liquidated the business, and called it quits.
+
+![Larceny was a big chalenge for both farms](clipboard-2224677889.png){fig-align="center" width="413"}
+
+# Conclusion
+
+Jamaica once had not one, but two functioning shrimp farms. They both closed down due to a number of challenges at the time, some regulatory, some physical. That said, both said the issue was not that growing shrimp in Jamaica was inherently unprofitable. Who knows, maybe one day, if conditions change, we may see shrimp farms making a splash in Jamaica again one day soon.
+
+## Sources
+
+[Source 1: Gleaner article](https://jamaica-gleaner.com/gleaner/20131220/business/business1.html)
+
+[Source 2: Trans-global closure](https://jamaica-gleaner.com/gleaner/20131206/business/business2.html)
