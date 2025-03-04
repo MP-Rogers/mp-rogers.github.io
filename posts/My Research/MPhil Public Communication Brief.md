@@ -1,4 +1,14 @@
-Seaweed Farming in Jamaica
+---
+title: "Introducing My Research"
+author: "MP Rogers"
+date: March 3, 2025
+categories: 
+- Marine Biology
+- Personal
+image: "Untitled.jpg"
+---
+
+# Seaweed Farming in Jamaica
 
 *“Seaweed is a billion dollar industry around the world, I’m ready to try and help Jamaica get a piece of that pie. “ -* Me
 
