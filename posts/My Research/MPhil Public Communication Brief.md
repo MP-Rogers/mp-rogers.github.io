@@ -5,7 +5,7 @@ date: March 3, 2025
 categories: 
 - Marine Biology
 - Personal
-image: "Untitled.jpg"
+image: "Untitled.png"
 ---
 
 # Seaweed Farming in Jamaica
