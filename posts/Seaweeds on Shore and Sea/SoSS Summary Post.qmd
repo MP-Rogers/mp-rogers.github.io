@@ -1,0 +1,34 @@
+---
+title: "Seaweeds on Sea and Shore"
+author: MP Rogers
+date: May 14, 2025
+categories:
+- Marine Biology
+image: "acension.jpg"
+---
+
+Imagine a pristine Caribbean Bay, normally teeming with turtles and wildlife, filled to the absolute brim with smelly, toxic and problematic seaweed. This was just one of the things my cohort and I experienced as we sought to understand and help figure out what has been going on.
+
+![Ascencion bay in Curacao, compeletely covered in *Sargassum*](acension.jpg){fig-align="center" width="438"}
+
+## Seaweeds on Sea and Shore
+
+So, over the last month, I’ve had the honour and pleasure of being a part of [NIOZ](https://www.nioz.nl/en)’ Seaweeds on Shore and Sea course. The course aimed to expose a group of 10 Masters students from Dutch universities and around the world to the science and impact of *Sargassum*, a floating brown seaweed that we in Jamaica are very familiar with. This seaweed has, for the last 15 years or so, stranded on shores of the Caribbean and North Atlantic in absolutely enormous amounts, interfering with coastal life, health and industry across the region. Three of us students were from Sargassum affected regions.
+
+![Me getting suitacases onto RV Pelagia, my home for 10 days](Getting%20on%20Pegavia.jpg){fig-align="center" width="560"}
+
+The course involved an intense 10 days at sea on a research vessel. During this time we gathered data (and tons of Sargassum). Everyone got a chance to rotate through the different tasks and by the end we all had some experience in sample sorting and preprocessing biological samples, DNA extractions, water sampling and pre-processing for nutrients and chlorophyll and more. We also got a chance to observe footage from the seafloor of the Caribbean and take sediment samples. While we sampled the sea, we also got accustomed to how things worked aboard a research vessel and got to know the crew and each other. The work was hard, but the open sea, the night skies and the sunsets on the water were amazing. I’d love to do something like that again.
+
+![](me%20nightsky.jpg){fig-align="center" width="490"}
+
+ This was followed by 10 days on shore at [CARMABI](https://www.carmabi.org/) (Caribbean Research and Management of Biodiversity) working on Sargassum science and policy briefings. We divided into groups and pursued our own experiments while making time to meet some of the existing scientists and entrepreneurs in the space. I was lucky enough to work on my own research area, and assess the growth of this infamous seaweed. The course culminated in final science and policy presentations shared at our amazing stakeholder workshop.
+
+![All of us after our amazing workshop](group%20pic%20on%20workshop%20day.jpg){fig-align="center" width="448"}
+
+To top it off, I got to experience more of the Caribbean which has always been a goal of mine. Curacao was not the first country I imagined, but I got to get in a couple amazing dives with new friends, go out and party on King’s Day, and ring in my birthday in another Caribbean country.
+
+![](kings%20night%20party.jpg){fig-align="center" width="393"}
+
+![](GOPR5575_1746296207102.jpg){fig-align="center" width="404"}
+
+I'm grateful for the chance to have participated and represented Jamaica, and especially grateful for the cohort of brilliant scientists I met along the way. Now it is time to take what I have learned and build on it to help Jamaica and the wider Caribbean in whatever way possible.

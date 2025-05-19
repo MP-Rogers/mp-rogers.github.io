@@ -19,7 +19,7 @@ My name is Matthew-Pierre Rogers. I’m a graduate student at UWI mona and my Re
 Seaweeds are already used in a ton of places you probably don’t realise or think about. In Jamaica, we know about Irish Moss. The rest of the Caribbean has similar drinks, but it's not the only thing seaweeds can be used for.
 
 \
-![Sea grapes, Eaten and farmed in Asia, grow underwater in Jamaica. 2 kinds of gracilaria, a seaweed used to make Irish Moss in Jamaica. And Kappaphycus, the most popular farmed seaweed in the tropics and the only one Jamaica is working on Farming Currently](Untitled.png)\
+![Sea grapes, Eaten and farmed in Asia, grow underwater in Jamaica. 2 kinds of gracilaria, a seaweed used to make Irish Moss in Jamaica. And Kappaphycus, the most popular farmed seaweed in the tropics and the only one Jamaica is working on Farming Currently](Untitled.png){width="266"}\
 Sea Grapes. These are farmed, eaten in Asia, and grow underwater in Jamaica.\
 2 kinds of *Gracilaria*, one of the seaweeds used to make Irish Moss in Jamaica\
 *Kappaphycus*, The most popular seaweed farmed in the tropics, and the only one Jamaica is looking into farming currently
